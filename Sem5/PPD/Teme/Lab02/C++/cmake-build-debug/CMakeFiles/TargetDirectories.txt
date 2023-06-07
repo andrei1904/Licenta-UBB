@@ -1,0 +1,3 @@
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/cmake-build-debug/CMakeFiles/C__.dir
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+AF
+stari: List<string>
+alfabet: Set<string>
+tranzitii: List<Tranzitie>
+stareInitiala: string
+stariFinale: List<string>
+
+Tranzitie
+valoare: string
+stareA: string
+stareB: string

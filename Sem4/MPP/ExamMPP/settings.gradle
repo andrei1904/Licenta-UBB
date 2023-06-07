@@ -1,0 +1,8 @@
+rootProject.name = 'ExamMPP'
+include 'Client'
+include 'Server'
+include 'Services'
+include 'Model'
+include 'Persistence'
+include 'RestServices'
+

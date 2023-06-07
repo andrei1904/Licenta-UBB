@@ -1,0 +1,8 @@
+rootProject.name = 'JocCuvinte'
+include 'Model'
+include 'Persistance'
+include 'Persistence'
+include 'Client'
+include 'Services'
+include 'Server'
+

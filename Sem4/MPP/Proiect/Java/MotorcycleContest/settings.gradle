@@ -1,0 +1,11 @@
+rootProject.name = 'MotorcycleContest'
+include 'ContestPersistence'
+include 'ContestModel'
+include 'ContestNetworking'
+include 'ChatServices'
+include 'ContestServices'
+include 'ContestServices'
+include 'ContestClient'
+include 'ContestServer'
+include 'RestServices'
+

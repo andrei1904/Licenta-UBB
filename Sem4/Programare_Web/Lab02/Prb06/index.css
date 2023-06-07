@@ -1,0 +1,32 @@
+.main {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.right {
+    text-align: right;
+}
+
+.sqare {
+    background-image: url("sqare.jpg");
+    background-size: 2em;
+    font-size: 1em;
+    letter-spacing: 1.45em;
+    height: 100%;
+    width: 100%;
+    font-family: Consolas, serif;
+}
+
+.nume{
+    width: 40em;
+}
+
+.prenume{
+    width: 40em;
+
+}
+.cnp{
+    width: 26em;
+}

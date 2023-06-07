@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <util:properties id="jdbcProps" location="contestserver.properties"/>
+
+    <bean id="userValidator" class="contest.domain.validators.UserValidator"/>
+
+    <bean id="userRepo" class="contest.persistence.UserDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="userValidator"/>
+    </bean>
+
+
+    <bean id="raceValidator" class="contest.domain.validators.RaceValidator"/>
+
+    <bean id="raceRepo" class="contest.persistence.RaceDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="raceValidator"/>
+    </bean>
+
+
+    <bean id="participantValidator" class="contest.domain.validators.ParticipantValidator"/>
+
+    <bean id="participantRepo" class="contest.persistence.ParticipantDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="participantValidator"/>
+    </bean>
+
+
+    <bean id="entryValidator" class="contest.domain.validators.EntryValidator"/>
+
+    <bean id="entryRepo" class="contest.persistence.EntryDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="entryValidator"/>
+    </bean>
+
+
+    <bean id="teamValidator" class="contest.domain.validators.TeamValidator"/>
+
+    <bean id="teamRepo" class="contest.persistence.TeamDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="teamValidator"/>
+    </bean>
+
+
+    <bean id="motorcycleValidator" class="contest.domain.validators.MotorcycleValidator"/>
+
+    <bean id="motorcycleRepo" class="contest.persistence.MotorcycleDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="motorcycleValidator"/>
+    </bean>
+
+
+    <bean id="contestService" class="contest.server.ContestServicesImpl">
+        <constructor-arg ref="userRepo"/>
+        <constructor-arg ref="raceRepo"/>
+        <constructor-arg ref="entryRepo"/>
+        <constructor-arg ref="teamRepo"/>
+        <constructor-arg ref="participantRepo"/>
+        <constructor-arg ref="motorcycleRepo"/>
+    </bean>
+
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Contest"/>
+        <property name="service" ref="contestService"/>
+        <property name="serviceInterface" value="contest.services.IContestServices"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+</beans>

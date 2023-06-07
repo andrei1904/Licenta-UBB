@@ -1,0 +1,4 @@
+
+
+cmmdc_lista(l1...ln, x) =   { 0, daca l=[]
+                            { cmmdc_lista(l2...ln, cmmdc(l1, x)), altfel

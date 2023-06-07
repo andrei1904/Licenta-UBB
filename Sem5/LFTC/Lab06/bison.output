@@ -1,0 +1,704 @@
+Terminals unused in grammar
+
+   COMMA
+   MODULO
+
+
+State 49 conflicts: 1 shift/reduce
+State 50 conflicts: 1 shift/reduce
+
+
+Grammar
+
+    0 $accept: program $end
+
+    1 program: definition main
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE NAMESPACE SPACE STD SEMICOLON
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    4 instruction_list: instruction
+    5                 | instruction instruction_list
+
+    6 instruction: variable_declaration
+    7            | read
+    8            | write
+    9            | assignment
+
+   10 variable_declaration: INT SPACE ID SEMICOLON
+
+   11 variable: ID
+   12         | CONST
+
+   13 read: CIN SPACE RIGHT_SHIFT SPACE ID SEMICOLON
+
+   14 write: COUT SPACE LEFT_SHIFT SPACE ID SEMICOLON
+
+   15 assignment: ID SPACE ASSIGNMENT SPACE expression SEMICOLON
+   16           | ID SPACE ASSIGNMENT SPACE ID SEMICOLON
+   17           | ID SPACE ASSIGNMENT SPACE CONST SEMICOLON
+
+   18 expression: variable
+   19           | variable SPACE ADDITION SPACE variable
+   20           | variable SPACE SUBTRACTION SPACE variable
+   21           | variable SPACE MULTIPLICATION SPACE variable
+   22           | variable SPACE DIVISON SPACE variable
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+INCLUDE (258) 2
+IOSTREAM (259) 2
+USING (260) 2
+NAMESPACE (261) 2
+STD (262) 2
+LEFT_PARENTHESIS (263) 3
+RIGHT_PARENTHESIS (264) 3
+LEFT_BRACE (265) 3
+RIGHT_BRACE (266) 3
+SEMICOLON (267) 2 3 10 13 14 15 16 17
+COMMA (268)
+MAIN (269) 3
+RETURN (270) 3
+INT (271) 3 10
+ADDITION (272) 19
+SUBTRACTION (273) 20
+MULTIPLICATION (274) 21
+DIVISON (275) 22
+MODULO (276)
+LEFT_SHIFT (277) 14
+RIGHT_SHIFT (278) 13
+ASSIGNMENT (279) 15 16 17
+COUT (280) 14
+CIN (281) 13
+SPACE (282) 2 3 10 13 14 15 16 17 19 20 21 22
+ID (283) 10 11 13 14 15 16 17
+CONST (284) 3 12 17
+
+
+Nonterminals, with rules where they appear
+
+$accept (30)
+    on left: 0
+program (31)
+    on left: 1, on right: 0
+definition (32)
+    on left: 2, on right: 1
+main (33)
+    on left: 3, on right: 1
+instruction_list (34)
+    on left: 4 5, on right: 3 5
+instruction (35)
+    on left: 6 7 8 9, on right: 4 5
+variable_declaration (36)
+    on left: 10, on right: 6
+variable (37)
+    on left: 11 12, on right: 18 19 20 21 22
+read (38)
+    on left: 13, on right: 7
+write (39)
+    on left: 14, on right: 8
+assignment (40)
+    on left: 15 16 17, on right: 9
+expression (41)
+    on left: 18 19 20 21 22, on right: 15
+
+
+state 0
+
+    0 $accept: . program $end
+
+    INCLUDE  shift, and go to state 1
+
+    program     go to state 2
+    definition  go to state 3
+
+
+state 1
+
+    2 definition: INCLUDE . SPACE IOSTREAM USING SPACE NAMESPACE SPACE STD SEMICOLON
+
+    SPACE  shift, and go to state 4
+
+
+state 2
+
+    0 $accept: program . $end
+
+    $end  shift, and go to state 5
+
+
+state 3
+
+    1 program: definition . main
+
+    INT  shift, and go to state 6
+
+    main  go to state 7
+
+
+state 4
+
+    2 definition: INCLUDE SPACE . IOSTREAM USING SPACE NAMESPACE SPACE STD SEMICOLON
+
+    IOSTREAM  shift, and go to state 8
+
+
+state 5
+
+    0 $accept: program $end .
+
+    $default  accept
+
+
+state 6
+
+    3 main: INT . SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    SPACE  shift, and go to state 9
+
+
+state 7
+
+    1 program: definition main .
+
+    $default  reduce using rule 1 (program)
+
+
+state 8
+
+    2 definition: INCLUDE SPACE IOSTREAM . USING SPACE NAMESPACE SPACE STD SEMICOLON
+
+    USING  shift, and go to state 10
+
+
+state 9
+
+    3 main: INT SPACE . MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    MAIN  shift, and go to state 11
+
+
+state 10
+
+    2 definition: INCLUDE SPACE IOSTREAM USING . SPACE NAMESPACE SPACE STD SEMICOLON
+
+    SPACE  shift, and go to state 12
+
+
+state 11
+
+    3 main: INT SPACE MAIN . LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    LEFT_PARENTHESIS  shift, and go to state 13
+
+
+state 12
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE . NAMESPACE SPACE STD SEMICOLON
+
+    NAMESPACE  shift, and go to state 14
+
+
+state 13
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS . RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    RIGHT_PARENTHESIS  shift, and go to state 15
+
+
+state 14
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE NAMESPACE . SPACE STD SEMICOLON
+
+    SPACE  shift, and go to state 16
+
+
+state 15
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS . SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    SPACE  shift, and go to state 17
+
+
+state 16
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE NAMESPACE SPACE . STD SEMICOLON
+
+    STD  shift, and go to state 18
+
+
+state 17
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE . LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    LEFT_BRACE  shift, and go to state 19
+
+
+state 18
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE NAMESPACE SPACE STD . SEMICOLON
+
+    SEMICOLON  shift, and go to state 20
+
+
+state 19
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE . instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    INT   shift, and go to state 21
+    COUT  shift, and go to state 22
+    CIN   shift, and go to state 23
+    ID    shift, and go to state 24
+
+    instruction_list      go to state 25
+    instruction           go to state 26
+    variable_declaration  go to state 27
+    read                  go to state 28
+    write                 go to state 29
+    assignment            go to state 30
+
+
+state 20
+
+    2 definition: INCLUDE SPACE IOSTREAM USING SPACE NAMESPACE SPACE STD SEMICOLON .
+
+    $default  reduce using rule 2 (definition)
+
+
+state 21
+
+   10 variable_declaration: INT . SPACE ID SEMICOLON
+
+    SPACE  shift, and go to state 31
+
+
+state 22
+
+   14 write: COUT . SPACE LEFT_SHIFT SPACE ID SEMICOLON
+
+    SPACE  shift, and go to state 32
+
+
+state 23
+
+   13 read: CIN . SPACE RIGHT_SHIFT SPACE ID SEMICOLON
+
+    SPACE  shift, and go to state 33
+
+
+state 24
+
+   15 assignment: ID . SPACE ASSIGNMENT SPACE expression SEMICOLON
+   16           | ID . SPACE ASSIGNMENT SPACE ID SEMICOLON
+   17           | ID . SPACE ASSIGNMENT SPACE CONST SEMICOLON
+
+    SPACE  shift, and go to state 34
+
+
+state 25
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list . RETURN SPACE CONST SEMICOLON RIGHT_BRACE
+
+    RETURN  shift, and go to state 35
+
+
+state 26
+
+    4 instruction_list: instruction .
+    5                 | instruction . instruction_list
+
+    INT   shift, and go to state 21
+    COUT  shift, and go to state 22
+    CIN   shift, and go to state 23
+    ID    shift, and go to state 24
+
+    $default  reduce using rule 4 (instruction_list)
+
+    instruction_list      go to state 36
+    instruction           go to state 26
+    variable_declaration  go to state 27
+    read                  go to state 28
+    write                 go to state 29
+    assignment            go to state 30
+
+
+state 27
+
+    6 instruction: variable_declaration .
+
+    $default  reduce using rule 6 (instruction)
+
+
+state 28
+
+    7 instruction: read .
+
+    $default  reduce using rule 7 (instruction)
+
+
+state 29
+
+    8 instruction: write .
+
+    $default  reduce using rule 8 (instruction)
+
+
+state 30
+
+    9 instruction: assignment .
+
+    $default  reduce using rule 9 (instruction)
+
+
+state 31
+
+   10 variable_declaration: INT SPACE . ID SEMICOLON
+
+    ID  shift, and go to state 37
+
+
+state 32
+
+   14 write: COUT SPACE . LEFT_SHIFT SPACE ID SEMICOLON
+
+    LEFT_SHIFT  shift, and go to state 38
+
+
+state 33
+
+   13 read: CIN SPACE . RIGHT_SHIFT SPACE ID SEMICOLON
+
+    RIGHT_SHIFT  shift, and go to state 39
+
+
+state 34
+
+   15 assignment: ID SPACE . ASSIGNMENT SPACE expression SEMICOLON
+   16           | ID SPACE . ASSIGNMENT SPACE ID SEMICOLON
+   17           | ID SPACE . ASSIGNMENT SPACE CONST SEMICOLON
+
+    ASSIGNMENT  shift, and go to state 40
+
+
+state 35
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN . SPACE CONST SEMICOLON RIGHT_BRACE
+
+    SPACE  shift, and go to state 41
+
+
+state 36
+
+    5 instruction_list: instruction instruction_list .
+
+    $default  reduce using rule 5 (instruction_list)
+
+
+state 37
+
+   10 variable_declaration: INT SPACE ID . SEMICOLON
+
+    SEMICOLON  shift, and go to state 42
+
+
+state 38
+
+   14 write: COUT SPACE LEFT_SHIFT . SPACE ID SEMICOLON
+
+    SPACE  shift, and go to state 43
+
+
+state 39
+
+   13 read: CIN SPACE RIGHT_SHIFT . SPACE ID SEMICOLON
+
+    SPACE  shift, and go to state 44
+
+
+state 40
+
+   15 assignment: ID SPACE ASSIGNMENT . SPACE expression SEMICOLON
+   16           | ID SPACE ASSIGNMENT . SPACE ID SEMICOLON
+   17           | ID SPACE ASSIGNMENT . SPACE CONST SEMICOLON
+
+    SPACE  shift, and go to state 45
+
+
+state 41
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE . CONST SEMICOLON RIGHT_BRACE
+
+    CONST  shift, and go to state 46
+
+
+state 42
+
+   10 variable_declaration: INT SPACE ID SEMICOLON .
+
+    $default  reduce using rule 10 (variable_declaration)
+
+
+state 43
+
+   14 write: COUT SPACE LEFT_SHIFT SPACE . ID SEMICOLON
+
+    ID  shift, and go to state 47
+
+
+state 44
+
+   13 read: CIN SPACE RIGHT_SHIFT SPACE . ID SEMICOLON
+
+    ID  shift, and go to state 48
+
+
+state 45
+
+   15 assignment: ID SPACE ASSIGNMENT SPACE . expression SEMICOLON
+   16           | ID SPACE ASSIGNMENT SPACE . ID SEMICOLON
+   17           | ID SPACE ASSIGNMENT SPACE . CONST SEMICOLON
+
+    ID     shift, and go to state 49
+    CONST  shift, and go to state 50
+
+    variable    go to state 51
+    expression  go to state 52
+
+
+state 46
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST . SEMICOLON RIGHT_BRACE
+
+    SEMICOLON  shift, and go to state 53
+
+
+state 47
+
+   14 write: COUT SPACE LEFT_SHIFT SPACE ID . SEMICOLON
+
+    SEMICOLON  shift, and go to state 54
+
+
+state 48
+
+   13 read: CIN SPACE RIGHT_SHIFT SPACE ID . SEMICOLON
+
+    SEMICOLON  shift, and go to state 55
+
+
+state 49
+
+   11 variable: ID .
+   16 assignment: ID SPACE ASSIGNMENT SPACE ID . SEMICOLON
+
+    SEMICOLON  shift, and go to state 56
+
+    SEMICOLON  [reduce using rule 11 (variable)]
+    $default   reduce using rule 11 (variable)
+
+
+state 50
+
+   12 variable: CONST .
+   17 assignment: ID SPACE ASSIGNMENT SPACE CONST . SEMICOLON
+
+    SEMICOLON  shift, and go to state 57
+
+    SEMICOLON  [reduce using rule 12 (variable)]
+    $default   reduce using rule 12 (variable)
+
+
+state 51
+
+   18 expression: variable .
+   19           | variable . SPACE ADDITION SPACE variable
+   20           | variable . SPACE SUBTRACTION SPACE variable
+   21           | variable . SPACE MULTIPLICATION SPACE variable
+   22           | variable . SPACE DIVISON SPACE variable
+
+    SPACE  shift, and go to state 58
+
+    $default  reduce using rule 18 (expression)
+
+
+state 52
+
+   15 assignment: ID SPACE ASSIGNMENT SPACE expression . SEMICOLON
+
+    SEMICOLON  shift, and go to state 59
+
+
+state 53
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON . RIGHT_BRACE
+
+    RIGHT_BRACE  shift, and go to state 60
+
+
+state 54
+
+   14 write: COUT SPACE LEFT_SHIFT SPACE ID SEMICOLON .
+
+    $default  reduce using rule 14 (write)
+
+
+state 55
+
+   13 read: CIN SPACE RIGHT_SHIFT SPACE ID SEMICOLON .
+
+    $default  reduce using rule 13 (read)
+
+
+state 56
+
+   16 assignment: ID SPACE ASSIGNMENT SPACE ID SEMICOLON .
+
+    $default  reduce using rule 16 (assignment)
+
+
+state 57
+
+   17 assignment: ID SPACE ASSIGNMENT SPACE CONST SEMICOLON .
+
+    $default  reduce using rule 17 (assignment)
+
+
+state 58
+
+   19 expression: variable SPACE . ADDITION SPACE variable
+   20           | variable SPACE . SUBTRACTION SPACE variable
+   21           | variable SPACE . MULTIPLICATION SPACE variable
+   22           | variable SPACE . DIVISON SPACE variable
+
+    ADDITION        shift, and go to state 61
+    SUBTRACTION     shift, and go to state 62
+    MULTIPLICATION  shift, and go to state 63
+    DIVISON         shift, and go to state 64
+
+
+state 59
+
+   15 assignment: ID SPACE ASSIGNMENT SPACE expression SEMICOLON .
+
+    $default  reduce using rule 15 (assignment)
+
+
+state 60
+
+    3 main: INT SPACE MAIN LEFT_PARENTHESIS RIGHT_PARENTHESIS SPACE LEFT_BRACE instruction_list RETURN SPACE CONST SEMICOLON RIGHT_BRACE .
+
+    $default  reduce using rule 3 (main)
+
+
+state 61
+
+   19 expression: variable SPACE ADDITION . SPACE variable
+
+    SPACE  shift, and go to state 65
+
+
+state 62
+
+   20 expression: variable SPACE SUBTRACTION . SPACE variable
+
+    SPACE  shift, and go to state 66
+
+
+state 63
+
+   21 expression: variable SPACE MULTIPLICATION . SPACE variable
+
+    SPACE  shift, and go to state 67
+
+
+state 64
+
+   22 expression: variable SPACE DIVISON . SPACE variable
+
+    SPACE  shift, and go to state 68
+
+
+state 65
+
+   19 expression: variable SPACE ADDITION SPACE . variable
+
+    ID     shift, and go to state 69
+    CONST  shift, and go to state 70
+
+    variable  go to state 71
+
+
+state 66
+
+   20 expression: variable SPACE SUBTRACTION SPACE . variable
+
+    ID     shift, and go to state 69
+    CONST  shift, and go to state 70
+
+    variable  go to state 72
+
+
+state 67
+
+   21 expression: variable SPACE MULTIPLICATION SPACE . variable
+
+    ID     shift, and go to state 69
+    CONST  shift, and go to state 70
+
+    variable  go to state 73
+
+
+state 68
+
+   22 expression: variable SPACE DIVISON SPACE . variable
+
+    ID     shift, and go to state 69
+    CONST  shift, and go to state 70
+
+    variable  go to state 74
+
+
+state 69
+
+   11 variable: ID .
+
+    $default  reduce using rule 11 (variable)
+
+
+state 70
+
+   12 variable: CONST .
+
+    $default  reduce using rule 12 (variable)
+
+
+state 71
+
+   19 expression: variable SPACE ADDITION SPACE variable .
+
+    $default  reduce using rule 19 (expression)
+
+
+state 72
+
+   20 expression: variable SPACE SUBTRACTION SPACE variable .
+
+    $default  reduce using rule 20 (expression)
+
+
+state 73
+
+   21 expression: variable SPACE MULTIPLICATION SPACE variable .
+
+    $default  reduce using rule 21 (expression)
+
+
+state 74
+
+   22 expression: variable SPACE DIVISON SPACE variable .
+
+    $default  reduce using rule 22 (expression)

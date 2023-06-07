@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                            ">
+
+    <bean id="hibernateUtil" class="app.persistence.HibernateUtil"/>
+
+    <bean id="userRepository" class="app.persistence.UserRepository">
+        <constructor-arg ref="hibernateUtil"/>
+    </bean>
+
+    <bean id="moveRepository" class="app.persistence.MoveRepository">
+        <constructor-arg ref="hibernateUtil"/>
+    </bean>
+
+    <bean id="appService" class="app.server.ServicesImpl">
+        <constructor-arg ref="userRepository"/>
+        <constructor-arg ref="moveRepository"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="App"/>
+        <property name="service" ref="appService"/>
+        <property name="serviceInterface" value="app.services.IServices"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+</beans>

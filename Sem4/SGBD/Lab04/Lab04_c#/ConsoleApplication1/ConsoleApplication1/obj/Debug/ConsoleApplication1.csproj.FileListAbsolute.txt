@@ -1,0 +1,6 @@
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Fac\Sem4\SGBD\Lab04\Lab04_c#\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

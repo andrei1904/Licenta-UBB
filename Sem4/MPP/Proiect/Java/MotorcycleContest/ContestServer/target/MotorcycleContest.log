@@ -1,0 +1,656 @@
+12 Apr 2021 20:27:29,433 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7edb54: startup date [Mon Apr 12 20:27:29 EEST 2021]; root of context hierarchy
+12 Apr 2021 20:27:29,516 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+12 Apr 2021 20:27:29,825 INFO  contest.persistence.UserDbRepository 25 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,831 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,836 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,840 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,844 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,849 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+12 Apr 2021 20:27:29,883 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+12 Apr 2021 20:27:32,011 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+12 Apr 2021 20:27:32,154 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.104:1099](local),objID:[0:0:0, 0]]]]
+12 Apr 2021 20:27:48,743 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+12 Apr 2021 20:27:49,543 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+12 Apr 2021 20:27:49,548 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+12 Apr 2021 20:27:49,564 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+12 Apr 2021 20:27:56,266 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+12 Apr 2021 20:27:56,289 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:55:48,747 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7edb54: startup date [Tue Apr 13 09:55:48 EEST 2021]; root of context hierarchy
+13 Apr 2021 09:55:48,866 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+13 Apr 2021 09:55:49,502 INFO  contest.persistence.UserDbRepository 25 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,511 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,518 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,523 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,530 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,535 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:55:49,594 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+13 Apr 2021 09:55:52,446 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+13 Apr 2021 09:55:52,517 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.104:1099](local),objID:[0:0:0, 0]]]]
+13 Apr 2021 09:56:58,194 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74455848: startup date [Tue Apr 13 09:56:58 EEST 2021]; root of context hierarchy
+13 Apr 2021 09:56:58,378 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+13 Apr 2021 09:56:58,914 INFO  contest.persistence.UserDbRepository 25 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,921 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,928 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,933 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,939 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,944 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 09:56:58,982 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+13 Apr 2021 09:57:01,129 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+13 Apr 2021 09:57:01,233 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.104:1099](local),objID:[0:0:0, 0]]]]
+13 Apr 2021 09:57:19,698 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:57:20,293 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:57:20,296 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:57:20,313 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:57:51,981 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 09:57:51,997 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:04,168 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7edb54: startup date [Tue Apr 13 10:09:04 EEST 2021]; root of context hierarchy
+13 Apr 2021 10:09:04,281 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+13 Apr 2021 10:09:04,648 INFO  contest.persistence.UserDbRepository 25 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,655 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,664 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,668 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,673 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,681 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+13 Apr 2021 10:09:04,722 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+13 Apr 2021 10:09:06,887 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+13 Apr 2021 10:09:07,029 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.104:1099](local),objID:[0:0:0, 0]]]]
+13 Apr 2021 10:09:37,995 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:38,726 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:38,734 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:38,760 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:57,039 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+13 Apr 2021 10:09:57,069 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:51:15,372 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a4013: startup date [Tue Apr 20 13:51:15 EEST 2021]; root of context hierarchy
+20 Apr 2021 13:51:15,425 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+20 Apr 2021 13:51:15,696 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+20 Apr 2021 13:51:15,702 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:51:15,707 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:51:15,709 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:51:15,711 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:51:15,715 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:51:15,737 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+20 Apr 2021 13:51:17,842 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+20 Apr 2021 13:51:17,904 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.101:1099](local),objID:[0:0:0, 0]]]]
+20 Apr 2021 13:51:51,047 WARN  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 88 invoke - Processing of RmiServiceExporter remote call resulted in fatal exception: contest.services.IContestServices.login
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because "contest.persistence.UserOrmDbRepository.sessionFactory" is null
+	at contest.persistence.UserOrmDbRepository.FilterByUsername(UserOrmDbRepository.java:35) ~[ContestPersistence-1.0.jar:?]
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:43) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+20 Apr 2021 13:53:58,599 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cbb87f3: startup date [Tue Apr 20 13:53:58 EEST 2021]; root of context hierarchy
+20 Apr 2021 13:53:58,651 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+20 Apr 2021 13:53:58,900 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+20 Apr 2021 13:53:58,905 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:53:58,909 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:53:58,911 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:53:58,913 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:53:58,916 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+20 Apr 2021 13:53:58,939 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+20 Apr 2021 13:54:01,027 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+20 Apr 2021 13:54:01,082 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.101:1099](local),objID:[0:0:0, 0]]]]
+20 Apr 2021 13:54:16,454 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+20 Apr 2021 13:54:16,911 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+20 Apr 2021 13:54:17,500 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:54:17,504 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:17,504 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:54:17,504 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:54:17,507 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:54:17,738 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:54:18,270 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a57525a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:54:18,289 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:54:18,533 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:19,122 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:54:19,126 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:54:19,138 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:54:23,367 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:54:23,368 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:23,368 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:54:23,369 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:54:23,369 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:54:23,371 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:54:23,401 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@65a63af3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:54:23,412 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:54:23,417 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:39,747 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:54:39,749 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:39,749 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:54:39,750 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:54:39,750 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:54:39,752 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:54:39,779 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6241dd39] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:54:39,786 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:54:39,793 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:39,794 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: Authentification failed!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:52) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+20 Apr 2021 13:54:52,976 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:54:52,977 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:54:52,977 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:54:52,978 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:54:52,979 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:54:52,980 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:54:53,009 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4da3ff62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:54:53,017 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:54:53,025 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:55:12,945 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:55:12,947 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:55:12,949 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:55:12,950 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:55:12,951 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:55:12,954 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:55:13,007 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3738d80c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:55:13,017 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:55:13,025 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:55:13,027 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: User already logged in!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:47) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+20 Apr 2021 13:55:27,368 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:55:27,369 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:55:27,370 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:55:27,371 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:55:27,372 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:55:27,373 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:55:27,398 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a9c1aaf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:55:27,408 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:55:27,412 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:55:58,832 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:56:07,887 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+20 Apr 2021 13:56:12,819 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:56:12,819 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:56:12,820 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:56:12,820 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:56:12,820 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:56:12,823 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:56:12,858 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66dba992] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:56:12,870 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:56:12,873 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:56:14,263 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20 Apr 2021 13:56:14,263 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+20 Apr 2021 13:56:14,264 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+20 Apr 2021 13:56:14,265 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+20 Apr 2021 13:56:14,265 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+20 Apr 2021 13:56:14,267 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+20 Apr 2021 13:56:14,295 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f9ffd77] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20 Apr 2021 13:56:14,309 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20 Apr 2021 13:56:14,314 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:46:35,861 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cbb87f3: startup date [Tue Apr 27 09:46:35 EEST 2021]; root of context hierarchy
+27 Apr 2021 09:46:35,927 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+27 Apr 2021 09:46:36,252 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+27 Apr 2021 09:46:36,258 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 09:46:36,266 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 09:46:36,268 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 09:46:36,270 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 09:46:36,278 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 09:46:36,301 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+27 Apr 2021 09:46:38,450 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+27 Apr 2021 09:46:38,627 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.103:1099](local),objID:[0:0:0, 0]]]]
+27 Apr 2021 09:47:01,419 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+27 Apr 2021 09:47:02,592 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27 Apr 2021 09:47:03,892 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:47:03,904 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:47:03,906 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:47:03,907 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:47:03,916 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:47:04,160 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:47:05,543 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a57525a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:47:05,585 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:47:06,097 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:47:06,592 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 09:47:06,600 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 09:47:06,617 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 09:47:37,225 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:47:37,228 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:47:37,230 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:47:37,232 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:47:37,233 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:47:37,237 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:47:37,304 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62a819dd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:47:37,328 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:47:37,345 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:47:47,376 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:47:47,380 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:47:47,381 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:47:47,383 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:47:47,384 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:47:47,387 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:47:47,464 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51b5ca04] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:47:47,480 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:47:47,492 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:01,967 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:48:01,969 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:01,970 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:48:01,970 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:48:01,971 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:48:01,976 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:48:02,031 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c9ee09e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:48:02,051 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:48:02,061 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:02,064 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: Authentification failed!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:52) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+27 Apr 2021 09:48:14,382 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:48:14,383 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:14,384 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:48:14,386 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:48:14,387 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:48:14,391 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:48:14,441 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23a7adcf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:48:14,469 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:48:14,484 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:14,487 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: User already logged in!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:47) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+27 Apr 2021 09:48:21,913 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:48:21,917 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:21,917 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:48:21,918 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:48:21,919 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:48:21,922 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:48:21,945 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@26116893] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:48:21,957 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:48:21,962 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:24,160 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:48:24,161 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:24,162 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:48:24,162 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:48:24,162 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:48:24,164 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:48:24,193 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ae6e0e0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:48:24,206 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:48:24,210 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:26,069 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 09:48:26,070 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 09:48:26,070 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 09:48:26,071 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 09:48:26,071 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 09:48:26,075 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 09:48:26,105 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7474f13d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 09:48:26,117 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 09:48:26,124 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 10:09:59,557 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a4013: startup date [Tue Apr 27 10:09:59 EEST 2021]; root of context hierarchy
+27 Apr 2021 10:09:59,617 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+27 Apr 2021 10:09:59,918 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+27 Apr 2021 10:09:59,924 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 10:09:59,929 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 10:09:59,931 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 10:09:59,933 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 10:09:59,937 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+27 Apr 2021 10:09:59,963 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+27 Apr 2021 10:10:02,104 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+27 Apr 2021 10:10:02,142 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.0.103:1099](local),objID:[0:0:0, 0]]]]
+27 Apr 2021 10:10:29,325 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+27 Apr 2021 10:10:29,786 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27 Apr 2021 10:10:30,506 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 10:10:30,510 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 10:10:30,511 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 10:10:30,512 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 10:10:30,514 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 10:10:30,616 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 10:10:31,170 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@263089e0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 10:10:31,191 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 10:10:31,431 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 10:10:31,837 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 10:10:31,846 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 10:10:31,858 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+27 Apr 2021 10:10:43,181 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27 Apr 2021 10:10:43,182 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+27 Apr 2021 10:10:43,185 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+27 Apr 2021 10:10:43,186 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+27 Apr 2021 10:10:43,187 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+27 Apr 2021 10:10:43,190 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+27 Apr 2021 10:10:43,255 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40562350] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+27 Apr 2021 10:10:43,268 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27 Apr 2021 10:10:43,274 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:05:10,721 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a4013: startup date [Sun May 30 20:05:10 EEST 2021]; root of context hierarchy
+30 May 2021 20:05:10,806 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+30 May 2021 20:05:11,201 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+30 May 2021 20:05:11,208 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:11,214 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:11,217 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:11,222 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:11,227 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:11,255 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+30 May 2021 20:05:11,400 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.100.16:1099](remote),objID:[0:0:0, 0]]]]
+30 May 2021 20:05:11,411 WARN  org.springframework.context.support.AbstractApplicationContext 557 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.remoting.rmi.RmiServiceExporter#0' defined in class path resource [spring-server.xml]: Invocation of init method failed; nested exception is java.rmi.server.ExportException: Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use: bind
+30 May 2021 20:05:19,728 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a4013: startup date [Sun May 30 20:05:19 EEST 2021]; root of context hierarchy
+30 May 2021 20:05:19,781 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+30 May 2021 20:05:20,123 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+30 May 2021 20:05:20,128 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:20,133 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:20,136 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:20,138 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:20,142 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:05:20,161 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+30 May 2021 20:05:22,291 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+30 May 2021 20:05:22,418 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.100.16:1099](local),objID:[0:0:0, 0]]]]
+30 May 2021 20:05:48,434 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+30 May 2021 20:05:49,531 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+30 May 2021 20:05:50,748 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30 May 2021 20:05:50,757 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:05:50,759 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+30 May 2021 20:05:50,759 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+30 May 2021 20:05:50,767 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+30 May 2021 20:05:51,024 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+30 May 2021 20:05:52,186 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58883cc6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30 May 2021 20:05:52,219 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 May 2021 20:05:52,657 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:05:53,224 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:05:53,233 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:05:53,246 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:03,680 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:07,761 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30 May 2021 20:06:07,763 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:06:07,765 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+30 May 2021 20:06:07,766 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+30 May 2021 20:06:07,766 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+30 May 2021 20:06:07,770 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+30 May 2021 20:06:07,832 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7d4ee10b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30 May 2021 20:06:07,849 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 May 2021 20:06:07,858 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:06:20,827 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a4013: startup date [Sun May 30 20:06:20 EEST 2021]; root of context hierarchy
+30 May 2021 20:06:20,900 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+30 May 2021 20:06:21,208 INFO  contest.persistence.UserOrmDbRepository 25 <init> - Initializing UsERoRMDBRepository with properties
+30 May 2021 20:06:21,216 INFO  contest.persistence.RaceDbRepository 28 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:06:21,222 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:06:21,225 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:06:21,229 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:06:21,232 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+30 May 2021 20:06:21,254 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+30 May 2021 20:06:23,386 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+30 May 2021 20:06:23,444 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.100.16:1099](local),objID:[0:0:0, 0]]]]
+30 May 2021 20:06:40,622 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+30 May 2021 20:06:41,731 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+30 May 2021 20:06:43,087 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30 May 2021 20:06:43,095 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:06:43,096 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 124 buildCreator - HHH10001001: Connection properties: {}
+30 May 2021 20:06:43,096 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+30 May 2021 20:06:43,102 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 249 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+30 May 2021 20:06:43,400 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: contest.persistence.org.hibernate.dialect.identity.SQLiteDialect
+30 May 2021 20:06:44,972 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58883cc6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30 May 2021 20:06:45,002 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 May 2021 20:06:45,507 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState 418 stop - HHH10001008: Cleaning up connection pool [jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db]
+30 May 2021 20:06:46,325 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:46,331 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:46,342 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:59,052 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+30 May 2021 20:06:59,071 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+16 Jun 2021 16:01:07,332 INFO  org.springframework.context.support.AbstractApplicationContext 589 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7edb54: startup date [Wed Jun 16 16:01:07 EEST 2021]; root of context hierarchy
+16 Jun 2021 16:01:07,403 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 316 loadBeanDefinitions - Loading XML bean definitions from class path resource [spring-server.xml]
+16 Jun 2021 16:01:07,659 INFO  contest.persistence.UserDbRepository 25 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,664 INFO  contest.persistence.RaceDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,667 INFO  contest.persistence.ParticipantDbRepository 32 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,670 INFO  contest.persistence.EntryDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,672 INFO  contest.persistence.TeamDbRepository 26 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,675 INFO  contest.persistence.MotorcycleDbRepository 29 <init> - Initializing CarsDBRepository with properties: {motorcycleContest.jdbc.driver=org.sqlite.JDBC, motorcycleContest.jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db} 
+16 Jun 2021 16:01:07,700 INFO  org.springframework.remoting.rmi.RmiServiceExporter 394 getRegistry - Looking for RMI registry at port '1099'
+16 Jun 2021 16:01:09,812 INFO  org.springframework.remoting.rmi.RmiServiceExporter 405 getRegistry - Could not detect RMI registry - creating new one
+16 Jun 2021 16:01:09,873 INFO  org.springframework.remoting.rmi.RmiServiceExporter 277 prepare - Binding service 'Contest' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.100.3:1099](local),objID:[0:0:0, 0]]]]
+16 Jun 2021 16:01:43,117 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+16 Jun 2021 16:01:43,241 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: Authentification failed!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:52) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16 Jun 2021 16:01:46,422 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+16 Jun 2021 16:01:46,426 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+16 Jun 2021 16:01:46,440 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db
+16 Jun 2021 16:02:00,966 INFO  org.springframework.remoting.support.RemoteInvocationTraceInterceptor 94 invoke - Processing of RmiServiceExporter remote call resulted in exception: contest.services.IContestServices.login
+contest.services.ContestException: User already logged in!
+	at contest.server.ContestServicesImpl.login(ContestServicesImpl.java:47) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:338) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationTraceInterceptor.invoke(RemoteInvocationTraceInterceptor.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at com.sun.proxy.$Proxy21.login(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.remoting.support.RemoteInvocation.invoke(RemoteInvocation.java:215) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.DefaultRemoteInvocationExecutor.invoke(DefaultRemoteInvocationExecutor.java:39) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.support.RemoteInvocationBasedExporter.invoke(RemoteInvocationBasedExporter.java:78) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiBasedExporter.invoke(RmiBasedExporter.java:73) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.remoting.rmi.RmiInvocationWrapper.invoke(RmiInvocationWrapper.java:77) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) [?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16 Jun 2021 16:02:11,304 INFO  contest.persistence.JdbcUtils 27 getNewConnection - Trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db

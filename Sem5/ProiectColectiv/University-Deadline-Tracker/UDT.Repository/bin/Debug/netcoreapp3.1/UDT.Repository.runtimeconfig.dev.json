@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\radua\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\radua\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19bec46a-34ac-4f03-8c9c-f0199051d3fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1kjSpfIUDz98XiCqLxplK2pit2y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProiectSocialNetwork" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\__MAP\WORKSPACE\concurrency\task_runner_concurrency\src\main\java" />
+      <recent name="D:\__MAP\WORKSPACE\concurrency\task_runner_concurrency\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ComboBoxSample">
+    <configuration name="ComboBoxSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="samples.ComboBoxSample" />
+      <module name="task_runner_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task_runner_concurrency.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="samples.Sample" />
+      <module name="task_runner_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComboBoxSample" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19bec46a-34ac-4f03-8c9c-f0199051d3fb" name="Default Changelist" comment="" />
+      <created>1606212691769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606212691769</updated>
+      <workItem from="1606212694608" duration="2149000" />
+      <workItem from="1606308315339" duration="599000" />
+      <workItem from="1606310596589" duration="1455000" />
+      <workItem from="1606922987064" duration="83000" />
+      <workItem from="1606944956505" duration="259000" />
+      <workItem from="1606996261739" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1606212764162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606212764162" />
+    <state x="384" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606212730390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606212730390" />
+    <state x="571" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1606212755042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606212755042" />
+    <state x="390" y="116" key="FileChooserDialogImpl" timestamp="1606996309713">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="390" y="116" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1606996309713" />
+    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1606945214571">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606297848872" />
+    <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1606945214571" />
+    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1606945214570">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1493" height="236" key="GridCell.Tab.0.center/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606297848872" />
+    <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1606945214570" />
+    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1606945214570">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1493" height="236" key="GridCell.Tab.0.left/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606297848872" />
+    <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1606945214570" />
+    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1606945214570">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1493" height="236" key="GridCell.Tab.0.right/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606297848872" />
+    <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1606945214570" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1606212876325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/-1920.8.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1606212876325" />
+  </component>
+</project>

@@ -1,0 +1,73 @@
+09 Mar 2021 10:02:18,208 INFO  CarsDBRepository 16 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db} 
+09 Mar 2021 10:02:18,222 TRACE CarsDBRepository 62 add - Enter saving task Id=0 Tesla Model S 2019
+09 Mar 2021 10:02:18,225 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:02:18,225 TRACE JdbcUtils 23 getNewConnection - Enter
+09 Mar 2021 10:02:18,226 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db
+09 Mar 2021 10:02:18,227 INFO  JdbcUtils 29 getNewConnection - user: null
+09 Mar 2021 10:02:18,227 INFO  JdbcUtils 30 getNewConnection - pass: null
+09 Mar 2021 10:02:18,547 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:02:18,562 TRACE CarsDBRepository 74 add - Saved 1 instances
+09 Mar 2021 10:02:18,563 TRACE CarsDBRepository 80 add - Exit
+09 Mar 2021 10:02:18,563 TRACE CarsDBRepository 90 findAll - Enter
+09 Mar 2021 10:02:18,564 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:02:18,564 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:02:18,566 TRACE CarsDBRepository 116 findAll - Exit
+09 Mar 2021 10:02:18,568 TRACE CarsDBRepository 22 findByManufacturer - Enter
+09 Mar 2021 10:02:18,569 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:02:18,569 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:02:18,571 TRACE CarsDBRepository 50 findByManufacturer - Exit
+09 Mar 2021 10:06:26,537 INFO  CarsDBRepository 16 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db} 
+09 Mar 2021 10:06:26,548 TRACE CarsDBRepository 62 add - Enter saving task Id=0 Tesla Model S 2019
+09 Mar 2021 10:06:26,549 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:06:26,551 TRACE JdbcUtils 23 getNewConnection - Enter
+09 Mar 2021 10:06:26,552 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db
+09 Mar 2021 10:06:26,554 INFO  JdbcUtils 29 getNewConnection - user: null
+09 Mar 2021 10:06:26,555 INFO  JdbcUtils 30 getNewConnection - pass: null
+09 Mar 2021 10:06:26,749 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:06:26,765 TRACE CarsDBRepository 74 add - Saved 1 instances
+09 Mar 2021 10:06:26,766 TRACE CarsDBRepository 80 add - Exit
+09 Mar 2021 10:06:26,767 TRACE CarsDBRepository 90 findAll - Enter
+09 Mar 2021 10:06:26,768 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:06:26,768 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:06:26,770 TRACE CarsDBRepository 116 findAll - Exit
+09 Mar 2021 10:06:26,774 TRACE CarsDBRepository 22 findByManufacturer - Enter
+09 Mar 2021 10:06:26,775 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:06:26,776 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:06:26,777 TRACE CarsDBRepository 50 findByManufacturer - Exit
+09 Mar 2021 10:32:14,235 INFO  CarsDBRepository 16 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db} 
+09 Mar 2021 10:32:14,248 TRACE CarsDBRepository 62 add - Enter saving task Id=0 Tesla Model S 2019
+09 Mar 2021 10:32:14,250 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:32:14,250 TRACE JdbcUtils 23 getNewConnection - Enter
+09 Mar 2021 10:32:14,250 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db
+09 Mar 2021 10:32:14,251 INFO  JdbcUtils 29 getNewConnection - user: null
+09 Mar 2021 10:32:14,254 INFO  JdbcUtils 30 getNewConnection - pass: null
+09 Mar 2021 10:32:14,462 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:32:14,494 TRACE CarsDBRepository 74 add - Saved 1 instances
+09 Mar 2021 10:32:14,495 TRACE CarsDBRepository 80 add - Exit
+09 Mar 2021 10:32:14,495 TRACE CarsDBRepository 90 findAll - Enter
+09 Mar 2021 10:32:14,496 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:32:14,497 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:32:14,501 TRACE CarsDBRepository 116 findAll - Exit
+09 Mar 2021 10:32:14,507 TRACE CarsDBRepository 22 findByManufacturer - Enter
+09 Mar 2021 10:32:14,507 TRACE JdbcUtils 46 getConnection - Enter
+09 Mar 2021 10:32:14,508 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+09 Mar 2021 10:32:14,510 TRACE CarsDBRepository 50 findByManufacturer - Exit
+16 Mar 2021 11:14:43,511 INFO  CarsDBRepository 16 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db} 
+16 Mar 2021 11:14:43,524 TRACE CarsDBRepository 62 add - Enter saving task Id=0 Tesla Model S 2019
+16 Mar 2021 11:14:43,525 TRACE JdbcUtils 48 getConnection - Enter
+16 Mar 2021 11:14:43,526 TRACE JdbcUtils 23 getNewConnection - Enter
+16 Mar 2021 11:14:43,526 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Fac/Sem4/MPP/Lab02/Db/cars.db
+16 Mar 2021 11:14:43,527 INFO  JdbcUtils 29 getNewConnection - user: null
+16 Mar 2021 11:14:43,528 INFO  JdbcUtils 30 getNewConnection - pass: null
+16 Mar 2021 11:14:43,777 TRACE JdbcUtils 42 getNewConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 11:14:43,778 TRACE JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 11:14:43,798 TRACE CarsDBRepository 74 add - Saved 1 instances
+16 Mar 2021 11:14:43,799 TRACE CarsDBRepository 80 add - Exit
+16 Mar 2021 11:14:43,800 TRACE CarsDBRepository 90 findAll - Enter
+16 Mar 2021 11:14:43,800 TRACE JdbcUtils 48 getConnection - Enter
+16 Mar 2021 11:14:43,800 TRACE JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 11:14:43,802 TRACE CarsDBRepository 116 findAll - Exit
+16 Mar 2021 11:14:43,803 TRACE CarsDBRepository 22 findByManufacturer - Enter
+16 Mar 2021 11:14:43,804 TRACE JdbcUtils 48 getConnection - Enter
+16 Mar 2021 11:14:43,804 TRACE JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a83a74a)
+16 Mar 2021 11:14:43,806 TRACE CarsDBRepository 50 findByManufacturer - Exit

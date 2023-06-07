@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70000907-19fc-4545-bc44-9ee5afa9ddc1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1j86z9mtKRmUAWPdAZOHIqWO6Qt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Seminar1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socialnetwork.Main" />
+      <module name="sem4-schelet-Java8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socialnetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70000907-19fc-4545-bc44-9ee5afa9ddc1" name="Default Changelist" comment="" />
+      <created>1603173631923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603173631923</updated>
+      <workItem from="1603173634575" duration="536000" />
+      <workItem from="1603278564885" duration="6011000" />
+      <workItem from="1603284985867" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="257" y="36" key="#Gradle" timestamp="1603278708800">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="257" y="36" key="#Gradle/0.0.1218.720@0.0.1218.720" timestamp="1603278708800" />
+    <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603279229444">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1603279229444" />
+    <state x="368" y="75" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603284506690">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="368" y="75" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1218.720@0.0.1218.720" timestamp="1603284506690" />
+    <state x="390" y="116" key="FileChooserDialogImpl" timestamp="1603285145269">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="390" y="116" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1603285145269" />
+    <state width="1175" height="220" key="GridCell.Tab.0.bottom" timestamp="1603284632339">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1603284632339" />
+    <state width="1225" height="117" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603174171819" />
+    <state width="1175" height="220" key="GridCell.Tab.0.center" timestamp="1603284632338">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1603284632338" />
+    <state width="1225" height="117" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603174171818" />
+    <state width="1175" height="220" key="GridCell.Tab.0.left" timestamp="1603284632338">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1603284632338" />
+    <state width="1225" height="117" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603174171818" />
+    <state width="1175" height="220" key="GridCell.Tab.0.right" timestamp="1603284632339">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1603284632339" />
+    <state width="1225" height="117" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603174171819" />
+    <state width="1175" height="220" key="GridCell.Tab.1.bottom" timestamp="1603284632340">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.bottom/0.0.1218.720@0.0.1218.720" timestamp="1603284632340" />
+    <state width="1175" height="220" key="GridCell.Tab.1.center" timestamp="1603284632339">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.center/0.0.1218.720@0.0.1218.720" timestamp="1603284632339" />
+    <state width="1175" height="220" key="GridCell.Tab.1.left" timestamp="1603284632339">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.left/0.0.1218.720@0.0.1218.720" timestamp="1603284632339" />
+    <state width="1175" height="220" key="GridCell.Tab.1.right" timestamp="1603284632339">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.right/0.0.1218.720@0.0.1218.720" timestamp="1603284632339" />
+    <state x="111" y="6" key="SettingsEditor" timestamp="1603279223942">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1603279223942" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sem4_schelet_Java8$Main.ic" NAME="Main Coverage Results" MODIFIED="1603280708366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>socialnetwork.*</FILTER>
+    </SUITE>
+  </component>
+</project>

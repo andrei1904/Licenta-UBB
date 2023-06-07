@@ -1,0 +1,15 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\ConnectionUtils.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\ConnectionUtils.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\System.Data.SQLite.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.AssemblyInfoInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.AssemblyInfo.cs
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.csproj.CopyComplete
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\obj\Debug\net472\ConnectionUtils.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\ConnectionUtils.dll.config
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\System.Configuration.ConfigurationManager.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\System.Security.AccessControl.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\System.Security.Permissions.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\ConnectionUtils\bin\Debug\net472\System.Security.Principal.Windows.dll

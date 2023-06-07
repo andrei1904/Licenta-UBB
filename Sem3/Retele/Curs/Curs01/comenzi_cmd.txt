@@ -1,0 +1,3 @@
+- ipconfig
+- ipconfig /all
+- ping ... (site)

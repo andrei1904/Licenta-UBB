@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="331.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="contest.client.gui.LoginController">
+    <Button layoutX="88.0" layoutY="192.0" mnemonicParsing="false" onAction="#pressLogin"
+            prefHeight="40.0" prefWidth="93.0" text="Login"/>
+    <TextField fx:id="usernameTextField" layoutX="60.0" layoutY="61.0"/>
+    <Label layoutX="107.0" layoutY="33.0" text="Username"/>
+    <Label accessibleRole="TEXT_FIELD" layoutX="110.0" layoutY="108.0" text="Password"/>
+    <PasswordField fx:id="passwordField" layoutX="59.0" layoutY="132.0"/>
+    <Button layoutX="88.0" layoutY="252.0" mnemonicParsing="false" onAction="#pressCancel"
+            prefHeight="40.0" prefWidth="93.0" text="Cancel"/>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TasksFragment">
+
+    <fragment
+        android:id="@+id/TasksFragment"
+        android:name="com.example.tasksapplication.ui.fragments.TasksFragment"
+        android:label="@string/tasks_fragment_label"
+        tools:layout="@layout/fragment_tasks">
+
+        <action
+            android:id="@+id/action_TasksFragment_to_AddTaskFragment"
+            app:destination="@id/AddTaskFragment" />
+
+        <action
+            android:id="@+id/action_TasksFragment_to_EditTaskFragment"
+            app:destination="@id/EditTaskFragment">
+
+            <argument
+                android:name="taskId"
+                android:defaultValue="0"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddTaskFragment"
+        android:name="com.example.tasksapplication.ui.fragments.AddTaskFragment"
+        android:label="@string/add_task_fragment"
+        tools:layout="@layout/fragment_add_task">
+
+        <action
+            android:id="@+id/action_AddTaskFragment_to_TasksFragment"
+            app:destination="@id/TasksFragment">
+
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/EditTaskFragment"
+        android:name="com.example.tasksapplication.ui.fragments.EditTaskFragment"
+        android:label="Edit Task Fragment">
+
+        <argument
+            android:name="taskId"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_EditTaskFragment_to_TasksFragment"
+            app:destination="@id/TasksFragment">
+        </action>
+
+    </fragment>
+
+
+</navigation>

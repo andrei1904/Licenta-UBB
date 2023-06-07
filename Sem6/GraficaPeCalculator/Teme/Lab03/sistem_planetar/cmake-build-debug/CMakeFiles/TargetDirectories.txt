@@ -1,0 +1,3 @@
+C:/Fac/Sem6/GraficaPeCalculator/Teme/Lab03/sistem_planetar/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Fac/Sem6/GraficaPeCalculator/Teme/Lab03/sistem_planetar/cmake-build-debug/CMakeFiles/sistem_planetar.dir
+C:/Fac/Sem6/GraficaPeCalculator/Teme/Lab03/sistem_planetar/cmake-build-debug/CMakeFiles/rebuild_cache.dir

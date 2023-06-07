@@ -1,0 +1,15 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\protobuf.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\protobuf.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Google.Protobuf.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Services.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\System.Memory.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Services.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Google.Protobuf.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\bin\Debug\Google.Protobuf.xml
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\obj\Debug\protobuf.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\obj\Debug\protobuf.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\obj\Debug\protobuf.csproj.CopyComplete
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\obj\Debug\protobuf.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\protobuf\obj\Debug\protobuf.pdb

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+
+    <script src="prb01.js"></script>
+    <link rel="stylesheet" type="text/css" href="prb01.css">
+</head>
+<body>
+
+<label for="list1"></label>
+    <select id="list1" multiple="multiple"
+           ondblclick="move(this.options[this.selectedIndex].text, 1, this.selectedIndex)">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+
+<label for="list2"></label>
+    <select id="list2" multiple="multiple"
+            ondblclick="move(this.options[this.selectedIndex].text, 2, this.selectedIndex)">
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select>
+</body>
+</html>

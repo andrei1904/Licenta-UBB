@@ -1,0 +1,5 @@
+MinGW not found at: C:\msys64\mingw64 Configure Disable profile
+
+Cannot get compiler information:
+	Cannot run program "C:\msys64\mingw64\bin\cc.exe" (in directory "C:\Fac\Sem6\GraficaPeCalculator\exemplu\cmake-build-debug"): CreateProcess error=2, The system cannot find the file specified
+	Cannot run program "C:\msys64\mingw64\bin\c++.exe" (in directory "C:\Fac\Sem6\GraficaPeCalculator\exemplu\cmake-build-debug"): CreateProcess error=2, The system cannot find the file specified

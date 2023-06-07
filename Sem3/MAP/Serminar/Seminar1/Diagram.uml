@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>containers.BasicContainer</OriginalElement>
+  <nodes>
+    <node x="86.0" y="80.0">runners.AbstractTaskRunner</node>
+    <node x="188.0" y="160.0">runners.PrinterTaskRunner</node>
+    <node x="224.0" y="0.0">runners.TaskRunner</node>
+    <node x="218.0" y="395.0">enums.SortingStrategy</node>
+    <node x="567.0" y="315.0">containers.BasicContainer</node>
+    <node x="509.0" y="550.0">domain.MessageTask</node>
+    <node x="184.0" y="315.0">java.lang.Enum</node>
+    <node x="0.0" y="705.0">factory.TaskContainerFactory</node>
+    <node x="353.0" y="550.0">domain.SortingTask</node>
+    <node x="587.0" y="235.0">containers.Container</node>
+    <node x="450.0" y="625.0">utils.Constants</node>
+    <node x="657.0" y="395.0">containers.QueueContainer</node>
+    <node x="164.0" y="550.0">sorters.QuickSoerter</node>
+    <node x="74.0" y="470.0">sorters.AbstractSorter</node>
+    <node x="0.0" y="550.0">sorters.BubbleSorter</node>
+    <node x="0.0" y="235.0">java.io.Serializable</node>
+    <node x="298.0" y="80.0">runners.StrategyTaskRunner</node>
+    <node x="164.0" y="235.0">java.lang.constant.Constable</node>
+    <node x="0.0" y="160.0">runners.DelayTaskRunner</node>
+    <node x="52.0" y="625.0">factory.Factory</node>
+    <node x="477.0" y="395.0">containers.StackContainer</node>
+    <node x="459.0" y="470.0">domain.Task</node>
+    <node x="304.0" y="235.0">java.lang.Comparable</node>
+    <node x="253.0" y="625.0">validators.TaskValidator</node>
+    <node x="615.0" y="625.0">Main</node>
+    <node x="86.0" y="395.0">enums.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="runners.DelayTaskRunner" target="runners.AbstractTaskRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="84.0" y="135.0" />
+      <point x="134.0" y="135.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.constant.Constable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="runners.StrategyTaskRunner" target="runners.TaskRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="394.0" y="55.0" />
+      <point x="320.0" y="55.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="containers.QueueContainer" target="containers.BasicContainer">
+      <point x="0.0" y="-15.0" />
+      <point x="737.0" y="370.0" />
+      <point x="687.0" y="370.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="26.666666666666657" y="-15.0" />
+      <point x="250.66666666666666" y="290.0" />
+      <point x="368.0" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="runners.AbstractTaskRunner" target="runners.TaskRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="182.0" y="55.0" />
+      <point x="256.0" y="55.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="containers.StackContainer" target="containers.BasicContainer">
+      <point x="0.0" y="-15.0" />
+      <point x="557.0" y="370.0" />
+      <point x="607.0" y="370.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="sorters.BubbleSorter" target="sorters.AbstractSorter">
+      <point x="0.0" y="-15.0" />
+      <point x="72.0" y="525.0" />
+      <point x="114.0" y="525.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="enums.Strategy" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="142.0" y="370.0" />
+      <point x="204.0" y="370.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="factory.TaskContainerFactory" target="factory.Factory">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="runners.PrinterTaskRunner" target="runners.AbstractTaskRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="280.0" y="135.0" />
+      <point x="230.0" y="135.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="containers.BasicContainer" target="containers.Container">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="sorters.QuickSoerter" target="sorters.AbstractSorter">
+      <point x="0.0" y="-15.0" />
+      <point x="236.0" y="525.0" />
+      <point x="194.0" y="525.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="domain.SortingTask" target="domain.Task">
+      <point x="0.0" y="-15.0" />
+      <point x="421.0" y="525.0" />
+      <point x="479.0" y="525.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-26.666666666666686" y="-15.0" />
+      <point x="197.33333333333331" y="290.0" />
+      <point x="72.0" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="domain.MessageTask" target="domain.Task">
+      <point x="0.0" y="-15.0" />
+      <point x="577.0" y="525.0" />
+      <point x="519.0" y="525.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="enums.SortingStrategy" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="302.0" y="370.0" />
+      <point x="244.0" y="370.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.823076923076923" x="406.0696086157079" y="394.71434200157603" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

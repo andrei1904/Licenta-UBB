@@ -1,0 +1,5 @@
+# ninja log v5
+33	1213	6692269935450446	build.ninja	b19f09292814df8f
+1	4439	6692269981070193	CMakeFiles/Ex01_calota_pp.dir/glad.c.obj	75efa3c058f9a088
+4	7308	6692270009986480	CMakeFiles/Ex01_calota_pp.dir/main.cpp.obj	e189532bf6e33d48
+7314	7743	6692270014329004	Ex01_calota_pp.exe	bb4bf8eb96156802

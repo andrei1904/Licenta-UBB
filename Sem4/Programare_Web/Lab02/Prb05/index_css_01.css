@@ -1,0 +1,22 @@
+.main {
+    border: solid;
+    width: 60%;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+table {
+    margin: 50px;
+    display: inline-block;
+    background: cyan;
+    border: 10px solid cyan;
+}
+
+p {
+    text-align: center;
+}
+

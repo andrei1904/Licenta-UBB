@@ -1,0 +1,28 @@
+expresie regulara: 0(0 + 1)*1
+
+gaseste gramatica regulara echivalenta
+
+S -> 0A
+A -> 0A|1A|1
+
+
+0 : G1 = ({S1}, {0,1}, {S1 -> 0}, S1)
+
+1 : G2 = ({S2}, {0,1}, {S2 -> 1}, S2)
+
+0+1 : G3 = ({S1, S2, S3}, {0,1}, {S1->0, S2->1, S3->0|1}, S3)
+     G3' = ({S3}, {0,1}, {S3->0|1}, S3)
+
+(0+1)* : G4 = ({S3}, {0,1}, {S3->eps|0|1|0S3|1S3}, S3)
+	G4' = ({S3}, {0,1}, {S3->eps|0S3|1S3}, S3)
+		(NU E REGULARA: S -> eps, si S apare in dreapta)
+
+0(0+1)* : G5 = ({S1,S3}, {0,1}, {S1->0S3,S3->eps|0S3|1S3},S1)
+		(NU E REGULARA)
+
+0(0 + 1)∗1 : G6 = ({S1,S2,S3}, {0,1}, {S1->0S3,S3->S2|0S3|1S3,S2->1}, S1)
+		(NU E LINIARA LA DREAPTA)
+
+
+
+	

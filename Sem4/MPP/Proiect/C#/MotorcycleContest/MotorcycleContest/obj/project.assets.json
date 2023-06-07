@@ -1,0 +1,627 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetFramework/1.0.113.3": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "build": {
+          "buildTransitive/net46/Stub.System.Data.SQLite.Core.NetFramework.targets": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Data.SQLite.Core/1.0.113.7": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetFramework": "1.0.113.3"
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.Security",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "WindowsBase",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "ConnectionUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetFramework": "1.0.113.3",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.2.21154.6",
+          "System.Data.SQLite.Core": "1.0.113.7"
+        },
+        "compile": {
+          "bin/placeholder/ConnectionUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectionUtils.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Persistance/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ConnectionUtils": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistance.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetFramework/1.0.113.3": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "build": {
+          "buildTransitive/net46/Stub.System.Data.SQLite.Core.NetFramework.targets": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Data.SQLite.Core/1.0.113.7": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetFramework": "1.0.113.3"
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.2.21154.6"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.Security",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "WindowsBase",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "ConnectionUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetFramework": "1.0.113.3",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.2.21154.6",
+          "System.Data.SQLite.Core": "1.0.113.7"
+        },
+        "compile": {
+          "bin/placeholder/ConnectionUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectionUtils.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Persistance/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ConnectionUtils": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistance.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "log4net/2.0.12": {
+      "sha512": "9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
+      "type": "package",
+      "path": "log4net/2.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/log4net.dll",
+        "lib/net20/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35/log4net.dll",
+        "lib/net35/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40/log4net.dll",
+        "lib/net40/log4net.xml",
+        "lib/net45/log4net.dll",
+        "lib/net45/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "lib/netstandard1.3/log4net.xml",
+        "lib/netstandard2.0/log4net.dll",
+        "lib/netstandard2.0/log4net.xml",
+        "log4net.2.0.12.nupkg.sha512",
+        "log4net.nuspec",
+        "package-icon.png"
+      ]
+    },
+    "Stub.System.Data.SQLite.Core.NetFramework/1.0.113.3": {
+      "sha512": "HAZt6dEnKobDle4LKwnZXUa/iY8pSmKCZfpyaB3tdeNwOaPWOcClDTdrN5sv/WjYN6EmbDKX6+bBksF4K/ss4A==",
+      "type": "package",
+      "path": "stub.system.data.sqlite.core.netframework/1.0.113.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net20/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "buildTransitive/net20/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "buildTransitive/net40/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "buildTransitive/net45/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "buildTransitive/net451/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "buildTransitive/net46/Stub.System.Data.SQLite.Core.NetFramework.targets",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.altconfig",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.altconfig",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.altconfig",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.altconfig",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.altconfig",
+        "lib/net46/System.Data.SQLite.xml",
+        "stub.system.data.sqlite.core.netframework.1.0.113.3.nupkg.sha512",
+        "stub.system.data.sqlite.core.netframework.nuspec"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/6.0.0-preview.2.21154.6": {
+      "sha512": "T+brfY85wmi1YrK0+dW7hxLfYofX3Jn/JepXTPbVxjJI4d+im7fe6LVTDjPFP0DBKSnwcURR8bu6tn/WCo/x+w==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/6.0.0-preview.2.21154.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/net461/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.6.0.0-preview.2.21154.6.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.113.7": {
+      "sha512": "2DKMIxfZpIVzdMfx1dj9qvTm+0m0Mx6sN6CZXMQDNytU7Sk/JKo0Ox6mvHAicfHrQgqZbUZMzMMtLXD0kwmFfg==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.113.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.core.1.0.113.7.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+      "sha512": "Kkm1j4dNf8RsV6lrJrWHCF3K+zXnPlvVWBE7fSXtbGNmwU23HghcsBi138/pH1Wk4eCZGki8mAVS6AjSEVlwXA==",
+      "type": "package",
+      "path": "system.security.accesscontrol/6.0.0-preview.2.21154.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.xml",
+        "system.security.accesscontrol.6.0.0-preview.2.21154.6.nupkg.sha512",
+        "system.security.accesscontrol.nuspec"
+      ]
+    },
+    "System.Security.Permissions/6.0.0-preview.2.21154.6": {
+      "sha512": "QDuqaefEFaYeknurOvsjU05hXpgbIoDzeqA6s8pEskEf4VP2rApPSE3IA7INmdLBnfKENVPmQsj+jrgUXjOfTw==",
+      "type": "package",
+      "path": "system.security.permissions/6.0.0-preview.2.21154.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/net461/System.Security.Permissions.xml",
+        "lib/net5.0/System.Security.Permissions.dll",
+        "lib/net5.0/System.Security.Permissions.xml",
+        "lib/netcoreapp3.0/System.Security.Permissions.dll",
+        "lib/netcoreapp3.0/System.Security.Permissions.xml",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.xml",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/net5.0/System.Security.Permissions.dll",
+        "ref/net5.0/System.Security.Permissions.xml",
+        "ref/netcoreapp3.0/System.Security.Permissions.dll",
+        "ref/netcoreapp3.0/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.6.0.0-preview.2.21154.6.nupkg.sha512",
+        "system.security.permissions.nuspec"
+      ]
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+      "sha512": "t4WCYsdAia8A9jwU55Xg0slxdbnMHLXceyCPc9DZuDVs4jhZzYouFRwNaO6d5RiIi1TTYlZNGbn4SwW+xuLq+g==",
+      "type": "package",
+      "path": "system.security.principal.windows/6.0.0-preview.2.21154.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "system.security.principal.windows.6.0.0-preview.2.21154.6.nupkg.sha512",
+        "system.security.principal.windows.nuspec"
+      ]
+    },
+    "ConnectionUtils/1.0.0": {
+      "type": "project",
+      "path": "../ConnectionUtils/ConnectionUtils.csproj",
+      "msbuildProject": "../ConnectionUtils/ConnectionUtils.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Persistance/1.0.0": {
+      "type": "project",
+      "path": "../Persistance/Persistance.csproj",
+      "msbuildProject": "../Persistance/Persistance.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "ConnectionUtils >= 1.0.0",
+      "Domain >= 1.0.0",
+      "Persistance >= 1.0.0",
+      "Stub.System.Data.SQLite.Core.NetFramework >= 1.0.113.3",
+      "log4net >= 2.0.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\radua\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\MotorcycleContest\\MotorcycleContest.csproj",
+      "projectName": "MotorcycleContest",
+      "projectPath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\MotorcycleContest\\MotorcycleContest.csproj",
+      "packagesPath": "C:\\Users\\radua\\.nuget\\packages\\",
+      "outputPath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\MotorcycleContest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\radua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\ConnectionUtils\\ConnectionUtils.csproj": {
+              "projectPath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\ConnectionUtils\\ConnectionUtils.csproj"
+            },
+            "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\Domain\\Domain.csproj"
+            },
+            "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\Persistance\\Persistance.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetFramework": {
+            "target": "Package",
+            "version": "[1.0.113.3, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.12, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

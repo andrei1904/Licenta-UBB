@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/MyBarrier.h
+condition_variable
+-
+
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+thread
+-
+MyBarrier.h
+C:/Fac/Sem5/PPD/Teme/Lab02/C++/MyBarrier.h
+

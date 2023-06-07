@@ -1,0 +1,411 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ro">
+
+<head>
+    <title>Comandă pizza HTML4</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+
+<div>
+    <form action="html4.html">
+        <center>
+            <table border="2" bgcolor="#add8e6">
+                <thead>
+                <tr>
+                    <th colspan="2">
+                        <h1> Comandă pizza </h1>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <a href="https://www.google.com" target="_blank">Acasă</a>
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>
+                        <!-- tabel informatii -->
+                        <table>
+                            <thead>
+                            <tr>
+                                <th colspan="4"> Informații personale</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <label for="prenume">
+                                        Prenume:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="prenume" name="prenume">
+                                </td>
+
+                                <td>
+                                    <label for="nume">
+                                        Nume:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="nume" name="nume">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="telefon">
+                                        Telefon:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input MAXLENGTH="10" type="text" id="telefon" name="telefon">
+                                </td>
+
+                                <td>
+                                    <label for="email">
+                                        Email:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="email" name="email">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="oras">
+                                        Oraș:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="oras" name="oras">
+                                        <option value="bucuresti">București</option>
+                                        <option selected value="brasov">Brașov</option>
+                                        <option value="clujnapoca">Cluj Napoca</option>
+                                        <option value="sibiu">Sibiu</option>
+                                        <option value="oradea">Oradea</option>
+                                        <option value="iasi">Iași</option>
+                                    </select>
+                                </td>
+
+                                <td>
+                                    Gen:
+                                </td>
+                                <td>
+                                    <input type="radio" id="masculin" name="gen" value="masculin">
+                                    <label for="masculin">
+                                        Masculin
+                                    </label>
+
+                                    <input type="radio" id="feminin" name="gen" value="feminin">
+                                    <label for="feminin">
+                                        Feminin
+                                    </label>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table> <!-- sfarsit tabel info personale -->
+                    </td>
+
+                    <td>
+                        <table> <!-- tabel livrare -->
+                            <thead>
+                            <tr>
+                                <th colspan="4">
+                                    Informații livrare
+                                </th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <label for="strada">
+                                        Stradă:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="strada" name="strada">
+                                </td>
+
+                                <td>
+                                    <label for="oraslivrare">
+                                        Oraș:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input readonly value="Brasov" type="text" id="oraslivrare" name="oraslivrare">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="numar">
+                                        Număr:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="numar" name="numar">
+                                </td>
+
+                                <td>
+                                    <label for="apartament">
+                                        Apartament:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="apartament" name="apartament">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <center>
+                                        <labeL for="detalii">
+                                            Detalii adiționale:
+                                        </labeL>
+                                    </center>
+                                </td>
+
+                                <td colspan="2">
+                                    <center>
+                                        <input type="text" id="detalii" name="detalii">
+                                    </center>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table> <!-- sfarsit tabel livrare -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top"> <!-- comanda -->
+                        <div>
+                            <table border="1" align="center">
+                                <thead>
+                                <tr>
+                                    <th colspan="3"> Alege produsele</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <center><b>Pizza</b></center>
+                                    </td>
+
+                                    <td rowspan="5" align="center">
+                                        <br>
+                                        <label for="kdulce">Ketchup ducle</label>
+                                        <input type="checkbox" id="kdulce" name="kdulce">
+                                        <br><br>
+
+                                        <label for="kpicant">Ketchup picant</label>
+                                        <input type="checkbox" id="kpicant" name="kpicant">
+                                        <br><br>
+
+                                        <label for="usturoi">Sos de usturoi</label>
+                                        <input type="checkbox" id="usturoi" name="usturoi">
+                                        <br><br>
+
+                                        <label for="cola">Cola</label>
+                                        <input type="checkbox" id="cola" name="cola">
+                                        <br><br>
+
+                                        <label for="fanta">Fanta</label>
+                                        <input type="checkbox" id="fanta" name="fanta">
+                                        <br><br>
+
+                                        <label for="apa">Apă plată</label>
+                                        <input type="checkbox" id="apa" name="apa">
+                                        <br><br>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center">
+                                        <label for="margherita">Margherita</label>
+                                        <input type="checkbox" id="margherita" name="margherita">
+                                    </td>
+
+                                    <td>
+                                        <label for="cmargherita">Cantitate:</label>
+                                        <input  type="text" id="cmargherita"
+                                               name="cmargherita">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center">
+                                        <label for="salami">Salami</label>
+                                        <input type="checkbox" id="salami" name="salami">
+                                    </td>
+
+                                    <td>
+                                        <label for="csalami">Cantitate:</label>
+                                        <input type="text" id="csalami" name="csalami">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center">
+                                        <label for="tonno">Tonno</label>
+                                        <input type="checkbox" id="tonno" name="tonno">
+                                    </td>
+
+                                    <td>
+                                        <label for="ctonno">Cantitate:</label>
+                                        <input type="text" id="ctonno" name="ctonno">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center">
+                                        <label for="prosciutto">Prosciutto</label>
+                                        <input type="checkbox" id="prosciutto" name="prosciutto">
+                                    </td>
+
+                                    <td>
+                                        <label for="cprosciutto">Cantitate:</label>
+                                        <input type="text" id="cprosciutto" name="cprosciutto">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="1">
+                                        <label for="extra">
+                                            Ingrediente extra:
+                                        </label>
+                                    </td>
+
+                                    <td colspan="2" align="center">
+                                        <select size="3" id="extra" name="extra" multiple>
+                                            <option value="nu">-</option>
+                                            <option value="mozzarela">Mozzarela</option>
+                                            <option value="mozzarela">Șuncă</option>
+                                            <option value="mozzarela">Salam</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3">
+                                        <fieldset>
+                                            <legend>Sugestii:</legend>
+                                            <textarea id="sugestii" rows="2" cols="10"></textarea>
+                                        </fieldset>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3">
+                                        <input checked type="checkbox" id="acord" name="acord">
+                                        <label for="acord">
+                                            Sunt de acord cu termenii și doresc livrare in maxim 60 de minute.
+                                        </label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3" align="center">
+                                        <input type="submit" value="Trimite">
+                                        <input disabled type="submit" value="Suna">
+                                    </td>
+                                </tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+
+                        <div>
+                            <center>
+                            <span>
+                                <img src="Img/pizza_margherita.jpg" width="100" height="100" alt="pizza margherita">
+                            </span>
+
+                            <span>
+                                <img src="Img/pizza_salami.jpg" width="100" height="100" alt="pizza salami">
+                             </span>
+
+                            <span>
+                                <img src="Img/pizza_tonno.jpg" width="100" height="100" alt="pizza tonno">
+                            </span>
+
+                            <span>
+                                <img src="Img/pizza_prosciutto.jpg" width="100" height="100" alt="pizza prosciutto">
+                            </span>
+                            </center>
+
+                        </div>
+                    </td> <!-- sfarsit comanda -->
+
+                    <td valign="top"> <!-- meniu -->
+                        <center><h2> Meniu </h2></center>
+                        <h3> Pizza </h3>
+                        <ul>
+                            <li><b>Pizza margherita</b>
+                                <ul>
+                                    <li>mozzarela, sos de roșii</li>
+                                </ul>
+                            </li>
+                            <li><b>Pizza salami</b>
+                                <ul>
+                                    <li>mozzarela, sos de roșii, salam</li>
+                                </ul>
+                            </li>
+                            <li><b>Pizza tonno</b>
+                                <ul>
+                                    <li>mozzarela, sos de roșii, ton</li>
+                                </ul>
+                            </li>
+                            <li><b>Pizza prosciutto</b>
+                                <ul>
+                                    <li>mozzarela, sos de roșii, șuncă</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <center>
+                            <p> Pizza este copată cu atenție în <strong> cuptorul cu lemne</strong>.</p>
+                        </center>
+
+                        <h3> Diverse </h3>
+                        <ol>
+                            <li><b>Sosuri</b>
+                                <ol type="A">
+                                    <li>Ketchup dulce</li>
+                                    <li>Ketchup picant</li>
+                                    <li>Sos de usturoi</li>
+                                </ol>
+                            </li>
+                            <li><b>Băuturi</b>
+                                <ol start="4" type="I">
+                                    <li>Cola</li>
+                                    <li>Fanta</li>
+                                    <li>Apă plată</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </center>
+    </form>
+</div>
+
+
+</body>
+
+</html>

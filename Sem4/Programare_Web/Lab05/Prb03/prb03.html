@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prb03</title>
+
+    <style>
+        .button_submit {
+            text-align: right;
+        }
+
+        .text {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        let changed = 0;
+        let prev = 1;
+
+        getData();
+
+        function getData() {
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    let ids = this.responseText.split(',');
+                    let idList = ids.slice(0, ids.length - 1);
+
+                    loadData(idList);
+                } else {
+                }
+            }
+            xmlhttp.open("GET", "prb03.php?type=1", true);
+            xmlhttp.send();
+        }
+
+        function loadData(array) {
+            for (let i = 0; i < array.length; i++) {
+                let option = document.createElement("option");
+                option.innerHTML = array[i];
+                document.getElementById("selectTag").appendChild(option);
+            }
+        }
+
+        function loadForm(id) {
+            if (changed === 1) {
+                let ok = confirm("There are unsaved changes. Do you want to save them?");
+
+                if (ok === true) {
+                    saveData(1);
+                }
+            }
+            changed = 0;
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    let details = this.responseText.split(',');
+                    updateForm(details);
+                }
+            }
+            xmlhttp.open("GET", "prb03.php?type=2&id=" + id, true);
+            xmlhttp.send();
+        }
+
+        function updateForm(array) {
+            document.getElementById("type").value = array[0];
+            document.getElementById("color").value = array[1];
+            document.getElementById("size").value = array[2];
+            document.getElementById("saveButton").disabled = true;
+        }
+
+        function textChanged() {
+            changed = 1;
+            document.getElementById("saveButton").disabled = false;
+        }
+
+        function saveData(ok) {
+            changed = 0;
+            let id;
+            if (ok === 0) {
+                id = document.getElementById("selectTag").value;
+            } else {
+                id = prev;
+            }
+
+            let type = document.getElementById("type").value;
+            let color = document.getElementById("color").value;
+            let size = document.getElementById("size").value;
+
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    alert("Shoe successfully updated");
+                }
+            }
+            xmlhttp.open("GET", "prb03.php?type=3&id=" + id + "&stype=" + type +
+                "&color=" + color + "&size=" + size);
+            xmlhttp.send();
+            document.getElementById("saveButton").disabled = true;
+        }
+
+        function selectFocused(value) {
+            prev = value;
+        }
+    </script>
+</head>
+<body>
+<label for="selectTag"> Select id: </label>
+<select id="selectTag" onfocus="selectFocused(this.value)" onchange="loadForm(this.value)">
+    <option disabled selected value> -- select an option --</option>
+</select>
+
+<form onchange="textChanged()">
+    <table>
+        <tr>
+            <td class="text" colspan="2">
+                Shoe details:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="type"> Type: </label>
+            </td>
+            <td>
+                <input type="text" value="" id="type">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="color"> Color: </label>
+            </td>
+            <td>
+                <input type="text" value="" id="color">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="size"> Size: </label>
+            </td>
+            <td>
+                <input type="text" value="" id="size">
+            </td>
+        </tr>
+        <tr>
+            <td class="button_submit" colspan="2">
+                <button type="button" id="saveButton" disabled onclick="saveData(0)">Save Changes</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

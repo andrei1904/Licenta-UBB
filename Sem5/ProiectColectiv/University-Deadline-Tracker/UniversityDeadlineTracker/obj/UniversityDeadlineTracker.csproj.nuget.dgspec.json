@@ -1,0 +1,354 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UniversityDeadlineTracker\\UniversityDeadlineTracker.csproj": {}
+  },
+  "projects": {
+    "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\UDT.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\UDT.Business.csproj",
+        "projectName": "UDT.Business",
+        "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\UDT.Business.csproj",
+        "packagesPath": "C:\\Users\\radua\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj"
+              },
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj",
+        "projectName": "UDT.Model",
+        "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj",
+        "packagesPath": "C:\\Users\\radua\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj",
+        "projectName": "UDT.Repository",
+        "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj",
+        "packagesPath": "C:\\Users\\radua\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UniversityDeadlineTracker\\UniversityDeadlineTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UniversityDeadlineTracker\\UniversityDeadlineTracker.csproj",
+        "projectName": "UniversityDeadlineTracker",
+        "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UniversityDeadlineTracker\\UniversityDeadlineTracker.csproj",
+        "packagesPath": "C:\\Users\\radua\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UniversityDeadlineTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\UDT.Business.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Business\\UDT.Business.csproj"
+              },
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj"
+              },
+              "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj": {
+                "projectPath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Repository\\UDT.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

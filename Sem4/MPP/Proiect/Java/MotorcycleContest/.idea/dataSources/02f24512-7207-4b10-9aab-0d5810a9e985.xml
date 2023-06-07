@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MotorcycleContest.db">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>3.34.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="Entry"/>
+    <table id="7" parent="2" name="Motorcycles"/>
+    <table id="8" parent="2" name="Participants"/>
+    <table id="9" parent="2" name="Races"/>
+    <table id="10" parent="2" name="Teams"/>
+    <table id="11" parent="2" name="Users"/>
+    <table id="12" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="13" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <column id="14" parent="6" name="EntryId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="15" parent="6" name="RaceId">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="6" name="ParticipantId">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="17" parent="6" name="Entry_EntryId_uindex">
+      <ColNames>EntryId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="18" parent="6" name="Entry_pk">
+      <ColNames>EntryId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Entry_EntryId_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="19" parent="6" name="FK_Entry_Races">
+      <ColNames>RaceId</ColNames>
+      <RefTableName>Races</RefTableName>
+      <RefKeyName>Races_pk</RefKeyName>
+      <RefColNames>RaceId</RefColNames>
+    </foreign-key>
+    <foreign-key id="20" parent="6" name="FK_Entry_Participants">
+      <ColNames>ParticipantId</ColNames>
+      <RefTableName>Participants</RefTableName>
+      <RefKeyName>Participants_pk</RefKeyName>
+      <RefColNames>ParticipantId</RefColNames>
+    </foreign-key>
+    <column id="21" parent="7" name="EngineCapacity">
+      <Position>1</Position>
+      <DataType>VARCHAR(30)|0s</DataType>
+    </column>
+    <column id="22" parent="7" name="MotorcycleId">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="23" parent="7" name="Motorcycles_MotorcycleId_uindex">
+      <ColNames>MotorcycleId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="24" parent="7" name="Motorcycles_pk">
+      <ColNames>MotorcycleId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Motorcycles_MotorcycleId_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="25" parent="7" name="Motorcycles_Participants_MotocycleId_fk">
+      <ColNames>MotorcycleId</ColNames>
+      <RefTableName>Participants</RefTableName>
+      <RefColNames>MotocycleId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="26" parent="8" name="ParticipantId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="27" parent="8" name="Name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <column id="28" parent="8" name="MotorcycleId">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="8" name="TeamId">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="30" parent="8" name="Participants_ParticipantId_uindex">
+      <ColNames>ParticipantId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="8" name="Participants_pk">
+      <ColNames>ParticipantId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Participants_ParticipantId_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="32" parent="8">
+      <ColNames>MotorcycleId</ColNames>
+      <RefTableName>Motorcycles</RefTableName>
+      <RefKeyName>Motorcycles_pk</RefKeyName>
+      <RefColNames>MotorcycleId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="33" parent="8">
+      <ColNames>TeamId</ColNames>
+      <RefTableName>Teams</RefTableName>
+      <RefKeyName>Teams_pk</RefKeyName>
+      <RefColNames>TeamId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="34" parent="9" name="RaceId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="35" parent="9" name="RequiredEngineCapacity">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="9" name="Name">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <index id="37" parent="9" name="Races_RaceId_uindex">
+      <ColNames>RaceId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="38" parent="9" name="Races_Name_uindex">
+      <ColNames>Name</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="9" name="Races_pk">
+      <ColNames>RaceId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Races_RaceId_uindex</UnderlyingIndexName>
+    </key>
+    <column id="40" parent="10" name="TeamId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="41" parent="10" name="TeamName">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="42" parent="10" name="Teams_TeamId_uindex">
+      <ColNames>TeamId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="43" parent="10" name="Teams_TeamName_uindex">
+      <ColNames>TeamName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="44" parent="10" name="Teams_pk">
+      <ColNames>TeamId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Teams_TeamId_uindex</UnderlyingIndexName>
+    </key>
+    <column id="45" parent="11" name="UserId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="46" parent="11" name="Username">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="11" name="Password">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="48" parent="11" name="Users_UserId_uindex">
+      <ColNames>UserId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="49" parent="11" name="Users_Username_uindex">
+      <ColNames>Username</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="11" name="Users_pk">
+      <ColNames>UserId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>Users_UserId_uindex</UnderlyingIndexName>
+    </key>
+    <column id="51" parent="12" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="52" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="53" parent="12" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="54" parent="12" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="55" parent="12" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="56" parent="13" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="57" parent="13" name="seq">
+      <Position>2</Position>
+    </column>
+  </database-model>
+</dataSource>

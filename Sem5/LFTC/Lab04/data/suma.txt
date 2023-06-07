@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+void suma(int n) {
+    int s = 0;
+
+    while (n > 0) {
+        n = n - 1;
+        int nr;
+        cin >> nr;
+        s = s + nr;
+    }
+
+    daca (n) atunci
+        n = n + 1;
+    sfdaca
+
+    cout << s;
+}
+
+int main() {
+    int n = 10;
+    suma(n);
+
+    return 0;
+}

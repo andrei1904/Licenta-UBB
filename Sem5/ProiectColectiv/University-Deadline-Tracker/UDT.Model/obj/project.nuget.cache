@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xGVPBB4qEONUiG4QHxsj4kBoUZDuNwSl7tJ6/E+1Fj49GjQ0ESy7WIibYepW7zkv7ThfyHPouVrvgK8lEVzO2w==",
+  "success": true,
+  "projectFilePath": "C:\\Fac\\Sem5\\ProiectColectiv\\University-Deadline-Tracker\\UDT.Model\\UDT.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

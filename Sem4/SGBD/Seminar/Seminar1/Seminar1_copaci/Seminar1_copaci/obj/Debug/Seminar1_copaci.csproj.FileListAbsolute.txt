@@ -1,0 +1,7 @@
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\bin\Debug\Seminar1_copaci.exe.config
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\bin\Debug\Seminar1_copaci.exe
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\bin\Debug\Seminar1_copaci.pdb
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\obj\Debug\Seminar1_copaci.csprojAssemblyReference.cache
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\obj\Debug\Seminar1_copaci.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\obj\Debug\Seminar1_copaci.exe
+C:\Fac\Sem4\SGBD\Seminar\Seminar1\Seminar1_copaci\Seminar1_copaci\obj\Debug\Seminar1_copaci.pdb

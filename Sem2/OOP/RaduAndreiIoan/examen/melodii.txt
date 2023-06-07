@@ -1,0 +1,9 @@
+1,da,da,rock
+5,dda,dsa,folk
+13027,l,l,rock
+15346,mm,mm,pop
+18458,mm,mm,pop
+22180,aa,aa,disco
+10972,k,k,folk
+32696,k,k,folk
+29720,elena,elena,pop

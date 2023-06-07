@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HqMZxaSDyrLVufF+y3sPMN1ocyklv14KJM9I2V1TM+eeeii7nN6UjOltrlNsjHpIzk0Ln75V4MkPlPT3PU6Q1w==",
+  "success": true,
+  "projectFilePath": "C:\\Fac\\Sem3\\MAP\\Serminar\\Seminar11\\Seminar11\\Seminar11\\Seminar11.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <TableView fx:id="tableViewHotel" layoutX="15.0" layoutY="51.0" onMouseClicked="#openWindowAction" prefHeight="341.0" prefWidth="510.0">
+        <columns>
+          <TableColumn fx:id="tableColumnLocation" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="tableColumnRoomNo" prefWidth="75.0" text="Rooms no" />
+            <TableColumn fx:id="tableColumnPricePerNight" prefWidth="111.33331298828125" text="PricePerNight" />
+            <TableColumn fx:id="tableColumnType" prefWidth="96.00003051757812" text="Type" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label layoutX="29.0" layoutY="18.0" text="Location" />
+      <ComboBox fx:id="comboBoxLocation" layoutX="88.0" layoutY="14.0" onAction="#changeSelectionAction" prefWidth="150.0" />
+   </children>
+</AnchorPane>

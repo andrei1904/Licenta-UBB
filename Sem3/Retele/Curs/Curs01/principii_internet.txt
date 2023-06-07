@@ -1,0 +1,8 @@
+principii/mecanisme fundamentale care stau la 
+baza functionarii retelei Internet:
+
+- arhitectura client-server (client1-server-client2)
+- adresare IP (Internet Protocol)
+- sistemul numelor de domenii - DNS
+- mecanismul de dirijare (routing, routare)
+- 

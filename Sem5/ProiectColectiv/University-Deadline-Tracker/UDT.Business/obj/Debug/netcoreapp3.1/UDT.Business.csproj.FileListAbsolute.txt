@@ -1,0 +1,15 @@
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Business.deps.json
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Business.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Business.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.AssemblyInfoInputs.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.AssemblyInfo.cs
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.csproj.CoreCompileInputs.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Model.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Repository.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Model.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\bin\Debug\netcoreapp3.1\UDT.Repository.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.csproj.CopyComplete
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.csproj.AssemblyReference.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Business\obj\Debug\netcoreapp3.1\UDT.Business.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,28 @@
+CGR - CONTEXT FREE GRAMAR TO GNF - GREIBACH NORMAL FORM
+
+S -> CA | BB
+B -> b | SB
+C -> b
+A -> a
+
+UNIT PRODUCTIONS or NULL?
+
+cnf?
+
+change names of non terminal into Ai in ascending order
+
+A1 -> A2A3 | A4A4
+A4 -> b | A1A4
+A2 -> b
+A3 -> a
+
+next step
+
+A4 -> b | A2A3A4 | A4A4A4
+A4 -> b | bA3A4 | A4A4A4
+
+remove left recursion
+
+Z -> A4A4Z | A4A4
+
+A4 -> b | bA4A4 | bz | bA3A4Z

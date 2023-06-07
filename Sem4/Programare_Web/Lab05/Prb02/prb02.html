@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prb02</title>
+
+    <style>
+        table {
+            width: 50%;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        #buttonDiv {
+            margin-left: 470px;
+        }
+    </style>
+
+    <script>
+        let page = 0;
+        getPersons();
+
+        function getPersons() {
+            let personList = [];
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+
+                    let auxList = this.responseText.split(';');
+                    personList = auxList.slice(0, auxList.length - 1);
+
+                    document.getElementById("next").disabled =
+                        page + 1 > Math.floor(personList.length / 3);
+
+                    document.getElementById("prev").disabled = page === 0;
+
+                    populateTable(page, personList);
+                }
+            }
+            xmlhttp.open("GET", "prb02.php", true);
+            xmlhttp.send();
+        }
+
+        function nextPage() {
+            page += 1;
+            getPersons();
+        }
+
+        function previousPage() {
+            page -= 1;
+            getPersons();
+        }
+
+        function populateTable(page, persons) {
+            let newArray = persons.slice(page * 3, page * 3 + 3);
+            createTable(newArray);
+        }
+
+        function createTable(array) {
+            let text = "<table>";
+            text += "<tr><th>Nume</th>\n" +
+                "<th>Prenume</th>\n" +
+                "<th>Telefon</th>\n" +
+                "<th>Email</th></tr>";
+
+            for (let i = 0; i < array.length; i++) {
+                let person = array[i].split(',');
+                text += "<tr><td>" + person[0] + "</td><td>" + person[1] +
+                    "</td><td>" + person[2] + "</td><td>" + person[3] + "</td> </tr>";
+            }
+            text += "</table>";
+
+            document.getElementById('pers').innerHTML = text;
+        }
+    </script>
+</head>
+
+<body>
+<div id="pers"></div>
+<br>
+<div id="buttonDiv">
+    <button type="button" id="prev" onclick="previousPage()">Previous</button>
+    <button type="button" id="next" onclick="nextPage()">Next</button>
+</div>
+</body>
+</html>

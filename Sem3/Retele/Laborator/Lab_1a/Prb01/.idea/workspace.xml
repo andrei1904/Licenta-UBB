@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13f652f3-96e7-4cad-ba02-5d3d75858344" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="19f700a6-3e02-48f0-9f25-aee07c090c3d" />
+  <component name="ProjectId" id="1lKNQ6PXV6Y6KTTCE0oykdBqhY0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.postordine">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Prb01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Fac\Sem3\Retele\Laborator\Lab_1a\Prb01\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="postordine" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Prb01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Fac\Sem3\Retele\Laborator\Lab_1a\Prb01\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/postordine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.postordine" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13f652f3-96e7-4cad-ba02-5d3d75858344" name="Default Changelist" comment="" />
+      <created>1607341806434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607341806434</updated>
+      <workItem from="1607341807602" duration="935000" />
+      <workItem from="1607344128544" duration="118000" />
+      <workItem from="1614011756950" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="65" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607341959038">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="65" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1607341959038" />
+    <state x="390" y="103" key="FileChooserDialogImpl" timestamp="1614011805231">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="390" y="103" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1614011805231" />
+    <state width="1175" height="288" key="GridCell.Tab.0.bottom" timestamp="1607344246402">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="288" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1607344246402" />
+    <state width="1175" height="288" key="GridCell.Tab.0.center" timestamp="1607344246402">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="288" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1607344246402" />
+    <state width="1175" height="288" key="GridCell.Tab.0.left" timestamp="1607344246401">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="288" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1607344246401" />
+    <state width="1175" height="288" key="GridCell.Tab.0.right" timestamp="1607344246402">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="288" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1607344246402" />
+    <state x="111" y="6" key="SettingsEditor" timestamp="1607341941264">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1607341941264" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Prb01$postordine.coverage" NAME="postordine Coverage Results" MODIFIED="1607344232964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

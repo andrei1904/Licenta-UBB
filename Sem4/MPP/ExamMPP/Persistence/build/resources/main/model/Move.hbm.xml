@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="app.model.Move" table="Moves">
+
+        <id name="id"  column="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property
+                name="gameId"
+                column="gameId"/>
+        <property
+                name="round"
+                column="round"/>
+        <property
+                name="user"
+                column="user"/>
+        <property
+                name="letter"
+                column="letter"/>
+        <property
+                name="chosenUser"
+                column="chosenUser"/>
+        <property
+                name="points"
+                column="points"/>
+
+        <property name="chosenWord"
+                  column="chosenWord"/>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\bin\Debug\net472\BasketballCompetition.exe.config
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\bin\Debug\net472\BasketballCompetition.exe
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\bin\Debug\net472\BasketballCompetition.pdb
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.csprojAssemblyReference.cache
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.AssemblyInfoInputs.cache
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.AssemblyInfo.cs
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.csproj.CoreCompileInputs.cache
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.exe
+C:\Fac\Sem3\MAP\Laborator\Lab7\BasketballCompetition\BasketballCompetition\obj\Debug\net472\BasketballCompetition.pdb

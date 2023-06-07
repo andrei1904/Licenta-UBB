@@ -1,0 +1,43 @@
+body {
+    height: 645px;
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+    height: 15%;
+}
+
+.menu {
+    background-color: grey;
+    height: 75%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 39px;
+}
+
+.menu a:hover {
+    background-color: darkgrey;
+}
+
+.menu a.active {
+    background-color: dodgerblue;
+}
+
+.main-view {
+    background-color: aquamarine;
+    height: 75%;
+}
+
+footer {
+    background-color: antiquewhite;
+    height: 10%;
+}

@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.tasksapplication.ui.fragments.TasksFragmentDirections","com.example.tasksapplication.ui.fragments.AddTaskFragmentDirections","com.example.tasksapplication.ui.fragments.EditTaskFragmentDirections","com.example.tasksapplication.ui.fragments.EditTaskFragmentArgs"]}]

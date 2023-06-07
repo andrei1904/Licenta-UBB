@@ -1,0 +1,6 @@
+- peer to peer
+- FTP
+- stiva TCP/IP
+- tunelare - VPN
+- https
+- smtp

@@ -1,0 +1,19 @@
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 20%;
+    margin: 0 20% 0.3% 2%;
+}
+
+.button_submit {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}

@@ -1,0 +1,10 @@
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\bin\Debug\netcoreapp3.1\UDT.Model.deps.json
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\bin\Debug\netcoreapp3.1\UDT.Model.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\bin\Debug\netcoreapp3.1\UDT.Model.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.AssemblyInfoInputs.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.AssemblyInfo.cs
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.csproj.CoreCompileInputs.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.dll
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.pdb
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.csproj.AssemblyReference.cache
+C:\Fac\Sem5\ProiectColectiv\University-Deadline-Tracker\UDT.Model\obj\Debug\netcoreapp3.1\UDT.Model.GeneratedMSBuildEditorConfig.editorconfig

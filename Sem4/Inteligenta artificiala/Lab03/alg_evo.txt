@@ -1,0 +1,35 @@
+Alg evolutiv 
+
+ 
+
+Initialisation P(0) 
+
+Evaluation P(0) 
+
+G=0; 
+
+ 
+
+While not stop condition do 
+
+Repeat 
+
+   Select p1,p2 from P(G) based on fitness 
+
+   Crossover(p1,p2)->d1,d2 
+
+   Mutation(d1)->d1' 
+
+   Mutation(d2)->d2' 
+
+   Evaluation(d1') 
+
+              Evaluation(d2') 
+
+             Add d1'd2' into P(g+1) // generational 
+
+             Best(d1'd,2') replaces Worst(P) // alg. Steady-state  
+
+      Until P(g+1) is full 
+
+           G++ //only for generational  

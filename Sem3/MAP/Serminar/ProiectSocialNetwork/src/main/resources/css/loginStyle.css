@@ -1,0 +1,21 @@
+.root {
+    -fx-background-color: #dddddd;
+}
+
+.cardPane {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+
+.cardPaneHome {
+    -fx-background-color: white;
+}
+
+.topPane {
+    -fx-background-color: #3196de;
+}
+
+.blueCardPane {
+    -fx-background-color: #3196de;
+    -fx-background-radius: 8px;
+}

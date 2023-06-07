@@ -1,0 +1,28 @@
+S -> AC
+S -> B
+A -> a
+C -> c
+C -> BC
+E -> aA
+E -> e
+
+T = {a,c,e}
+W1 = {A, C, E}
+W2 = {A, C, E, S}
+W3 = {A, C, E, S}
+
+G' = { (A,C,E,S), (a,c,e), P, (S)}
+P: 
+   S -> AC, A -> a, C -> c, E -> aA|e
+
+phase2
+
+Y1 = {S}
+Y2 = {S, A, C}
+Y3 = {S, A, C, a, c}
+Y4 = {S, A, C, a, c}
+
+G''= { (A,C,S), (a, c), P, (S)}
+
+P:
+   S -> AC, A -> a, C -> c

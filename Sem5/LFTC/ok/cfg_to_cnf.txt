@@ -1,0 +1,51 @@
+CFG - CONTEXT FREE GRAMAR TO CNF - CHOMSKI NORMAL FORM
+
+S -> ASA
+S -> ab
+A -> B
+A -> S
+B -> b
+B -> eps
+
+apare S in partea dreapta =>
+
+S' -> S
+S -> ASA|aB
+A -> B|S
+B -> b|eps
+
+apare eps =>
+
+S' -> S
+S -> ASA|aB|a
+A -> B|S|eps
+B -> b
+
+S' -> S
+S -> ASA|aB|a|AS|SA|S
+A -> B|S
+B -> b
+
+remove unit productions
+
+S' -> ASA|aB|a|AS|SA
+S -> ASA|aB|a|AS|SA
+A -> b|ASA|aB|a|AS|SA
+B -> b
+
+sunt 3 productii in RHS
+
+S' -> AX|aB|a|AS|SA
+S -> AX|aB|a|AS|SA
+A -> b|AX|aB|a|AS|SA
+B -> b
+X -> SA
+
+ELIMINI terminalNONTERMINAL
+
+S' -> AX|YB|a|AS|SA
+S -> AX|YB|a|AS|SA
+A -> b|AX|YB|a|AS|SA
+B -> b
+X -> SA
+Y -> a

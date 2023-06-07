@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_edit_task.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\fragment_edit_task.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\task_item.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\task_item.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_task.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\fragment_add_task.xml"
+    },
+    {
+        "merged": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tasks.xml",
+        "source": "C:\\Fac\\Sem5\\MA\\android\\TasksApplication\\app\\src\\main\\res\\layout\\fragment_tasks.xml"
+    }
+]

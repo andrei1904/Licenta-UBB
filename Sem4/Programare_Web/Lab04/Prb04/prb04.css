@@ -1,0 +1,14 @@
+table tr td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+table tr th {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#table1 tr td:first-child {
+    font-weight: bold;
+}
+

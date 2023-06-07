@@ -1,0 +1,19 @@
+Gramatica G = {N, SIGMA (E), P, S}
+
+N = alfabet de simboluri netreminale
+SIGMA (E) = alfabet de simboluri terminale
+P = multimea regulilor de productie
+S = simbol de start
+
+
+N = {S,C} ; SIGMA(E) = {a,b}
+
+P: 
+ 𝑆 → 𝑎𝑏 | 𝑎𝐶𝑆𝑏
+ 𝐶 → 𝑆 | 𝑏𝑆𝑏
+ 𝐶𝑆 → 𝑏
+
+arata ca w = ab(ab^2)^2 apartine L(G)
+
+S -> aCSb -> abSbSb -> ababbabb -> ab(ab^2)^2
+

@@ -1,0 +1,13 @@
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.exe
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.deps.json
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.runtimeconfig.json
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.runtimeconfig.dev.json
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.dll
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\bin\Debug\netcoreapp3.1\Seminar11.pdb
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.csprojAssemblyReference.cache
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.AssemblyInfoInputs.cache
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.AssemblyInfo.cs
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.csproj.CoreCompileInputs.cache
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.dll
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.pdb
+C:\Fac\Sem3\MAP\Serminar\Seminar11\Seminar11\Seminar11\obj\Debug\netcoreapp3.1\Seminar11.genruntimeconfig.cache

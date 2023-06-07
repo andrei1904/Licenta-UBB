@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "v1167ehNngk+Y4D4NjmgZn95k2b8Rr3n8KjOUL+383MvNCemf0LWK7rsLXmLZ/FeWAViOYL0BEWxSKNaIEctmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Fac\\Sem4\\MPP\\Proiect\\C#\\MotorcycleContest\\MotorcycleContest\\MotorcycleContest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\radua\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.113.3\\stub.system.data.sqlite.core.netframework.1.0.113.3.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0-preview.2.21154.6\\system.configuration.configurationmanager.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.security.accesscontrol\\6.0.0-preview.2.21154.6\\system.security.accesscontrol.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.security.permissions\\6.0.0-preview.2.21154.6\\system.security.permissions.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.security.principal.windows\\6.0.0-preview.2.21154.6\\system.security.principal.windows.6.0.0-preview.2.21154.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+w = 12321
+
+(q0, 12321) -> (q1, 2321) -> (q1, 321) -> (q1, 21) ->
+(q1, 1) -> (qf, eps) => adev
+
+
+
+
+L = {a^n b^m | n nr nat, m nr nat*}
+
+L = L(M)
+
+(p, a^n b^m) -> (p, b^m) -> (q, b^(m-1)) -> (q, eps) => adev
+

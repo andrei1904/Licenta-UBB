@@ -1,0 +1,9 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\bin\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\bin\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\obj\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\obj\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\bin\Debug\System.Data.SQLite.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\bin\Debug\System.Data.SQLite.xml
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Domain\obj\Debug\Domain.csproj.CopyComplete

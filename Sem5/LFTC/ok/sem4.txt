@@ -1,0 +1,58 @@
+3.
+
+a) L = {a^(3*n) | n nr nat diferit de 0}
+
+S -> aA
+A -> aB
+B -> a
+B -> aA
+
+b) L = {a^(3*n) | n nr nat}
+
+S -> eps
+S -> aA
+A -> aB
+B -> a
+B -> aA
+
+c) L = {a^m b^n | m,n nr nat dif de 0}
+
+S -> aA
+A -> aA
+A -> b
+A -> bB
+B -> bB
+B -> b
+
+d) limbajul constanelor numerice fara semn reprez in baza 2
+
+S -> 0
+S -> 1
+S -> 1A
+A -> 1
+A -> 0
+A -> 1A
+A -> 0A
+
+e) limbajul id
+
+S -> a|b|...|z
+S -> ...
+
+
+6.
+a)
+gr regular
+S -> eps
+S -> aA
+A -> a
+A -> aB
+B -> aA
+
+b) 
+S -> eps
+S -> aS
+S -> bA
+S -> b
+A -> bA
+A -> b

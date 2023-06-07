@@ -1,0 +1,16 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\Persistance.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\Persistance.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\ConnectionUtils.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\log4net.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\System.Data.SQLite.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\ConnectionUtils.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\ConnectionUtils.dll.config
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\log4net.xml
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\obj\Debug\Persistance.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\obj\Debug\Persistance.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\obj\Debug\Persistance.csproj.CopyComplete
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\obj\Debug\Persistance.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\obj\Debug\Persistance.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Persistance\bin\Debug\System.Data.SQLite.xml

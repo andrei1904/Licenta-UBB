@@ -1,0 +1,28 @@
+com/example/tasksapplication/BuildConfig.java
+ com.example.tasksapplication.BuildConfig
+com/example/tasksapplication/databinding/FragmentEditTaskBinding.java
+ com.example.tasksapplication.databinding.FragmentEditTaskBinding
+com/example/tasksapplication/databinding/ListItemBinding.java
+ com.example.tasksapplication.databinding.ListItemBinding
+com/example/tasksapplication/databinding/FragmentTasksBinding.java
+ com.example.tasksapplication.databinding.FragmentTasksBinding
+com/example/tasksapplication/databinding/FragmentAddTaskBinding.java
+ com.example.tasksapplication.databinding.FragmentAddTaskBinding
+com/example/tasksapplication/databinding/ActivityMainBinding.java
+ com.example.tasksapplication.databinding.ActivityMainBinding
+com/example/tasksapplication/databinding/TaskItemBinding.java
+ com.example.tasksapplication.databinding.TaskItemBinding
+com/example/tasksapplication/databinding/ContentMainBinding.java
+ com.example.tasksapplication.databinding.ContentMainBinding
+com/example/tasksapplication/database/dao/TaskDao_Impl.java
+ com.example.tasksapplication.database.dao.TaskDao_Impl
+ com.example.tasksapplication.database.dao.TaskDao_Impl$1
+ com.example.tasksapplication.database.dao.TaskDao_Impl$2
+ com.example.tasksapplication.database.dao.TaskDao_Impl$3
+ com.example.tasksapplication.database.dao.TaskDao_Impl$4
+ com.example.tasksapplication.database.dao.TaskDao_Impl$5
+ com.example.tasksapplication.database.dao.TaskDao_Impl$6
+ com.example.tasksapplication.database.dao.TaskDao_Impl$7
+com/example/tasksapplication/database/TaskRoomDatabase_Impl.java
+ com.example.tasksapplication.database.TaskRoomDatabase_Impl
+ com.example.tasksapplication.database.TaskRoomDatabase_Impl$1

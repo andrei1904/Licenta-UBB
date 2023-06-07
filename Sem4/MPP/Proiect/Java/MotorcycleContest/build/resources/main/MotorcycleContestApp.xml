@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps1">
+        <prop key="motorcycleContest.jdbc.driver">org.sqlite.JDBC</prop>
+        <prop key="motorcycleContest.jdbc.url">jdbc:sqlite:C:/Fac/Sem4/MPP/Proiect/Db/MotorcycleContest.db</prop>
+    </util:properties>
+
+    <util:properties id="jdbcProps" location="classpath:bd.config"/>
+
+    <bean id="userValidator" class="domain.validators.UserValidator"/>
+
+    <bean id="userRepo" class="repository.UserDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="userValidator"/>
+    </bean>
+
+    <bean id="userService" class="service.UserService">
+        <constructor-arg ref="userRepo"/>
+    </bean>
+
+
+    <bean id="raceValidator" class="domain.validators.RaceValidator"/>
+
+    <bean id="raceRepo" class="repository.RaceDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="raceValidator"/>
+    </bean>
+
+    <bean id="raceService" class="service.RaceService">
+        <constructor-arg ref="raceRepo"/>
+    </bean>
+
+
+    <bean id="participantValidator" class="domain.validators.ParticipantValidator"/>
+
+    <bean id="participantRepo" class="repository.ParticipantDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="participantValidator"/>
+    </bean>
+
+    <bean id="participantService" class="service.ParticipantService">
+        <constructor-arg ref="participantRepo"/>
+    </bean>
+
+
+    <bean id="entryValidator" class="domain.validators.EntryValidator"/>
+
+    <bean id="entryRepo" class="repository.EntryDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="entryValidator"/>
+    </bean>
+
+    <bean id="entryService" class="service.EntryService">
+        <constructor-arg ref="entryRepo"/>
+    </bean>
+
+
+    <bean id="teamValidator" class="domain.validators.TeamValidator"/>
+
+    <bean id="teamRepo" class="repository.TeamDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="teamValidator"/>
+    </bean>
+
+    <bean id="teamService" class="service.TeamService">
+        <constructor-arg ref="teamRepo"/>
+    </bean>
+
+
+
+    <bean id="motorcycleValidator" class="domain.validators.MotorcycleValidator"/>
+
+    <bean id="motorcycleRepo" class="repository.MotorcycleDbRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="motorcycleValidator"/>
+    </bean>
+
+    <bean id="motorcycleService" class="service.MotorcycleService">
+        <constructor-arg ref="motorcycleRepo"/>
+    </bean>
+
+
+
+    <bean id="allService" class="service.AllService">
+        <constructor-arg ref="userService"/>
+        <constructor-arg ref="raceService"/>
+        <constructor-arg ref="participantService"/>
+        <constructor-arg ref="entryService"/>
+        <constructor-arg ref="teamService"/>
+        <constructor-arg ref="motorcycleService"/>
+    </bean>
+
+</beans>

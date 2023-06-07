@@ -1,0 +1,4 @@
+02 Mar 2021 10:47:19,242 TRACE repository.AbstractRepository 20 add - Enter  parameters ID=1, ownerName='A A', model='Asus', date='13/10/2020', problemDescription='Broken display'
+02 Mar 2021 10:47:19,248 TRACE repository.AbstractRepository 27 add - Exit
+02 Mar 2021 10:47:19,249 TRACE repository.AbstractRepository 20 add - Enter  parameters ID=2, ownerName='B B', model='Acer', date='10/10/2020', problemDescription='Faulty keyboard'
+02 Mar 2021 10:47:19,249 TRACE repository.AbstractRepository 27 add - Exit

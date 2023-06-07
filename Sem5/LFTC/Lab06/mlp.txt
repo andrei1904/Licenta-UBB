@@ -1,0 +1,23 @@
+﻿1.
+
+<program> ::= <definition> <main>
+
+<definition> ::= "#include <iostream>
+                  using namespace std;"
+
+<main> ::= "int main() {" <instruction_list> "return 0; }"
+
+<instruction_list> ::= <instruction> | <instruction> <instruction_list>
+<instruction> ::= <variable_declaration> | <read> | <write> | <assignment>
+
+<variable_declaration> ::= "int" ID";"
+
+<read> ::= "cin >> " ID";"
+<write> ::= "cout << " ID";"
+
+<assignment> ::= ID "=" <expression>
+<expression> ::= ID | CONST | <expression> <arithmetic_operator> <expression>
+<arithmetic_operator> ::= "+" | "-" | "*" | "/" | "%"
+
+ID ::= [a-zA-Z][a-zA-Z0-9]{0,7}
+CONST ::= ([+-]?[0-9]+)|([+-]?[0-9]+\.[0-9]+)

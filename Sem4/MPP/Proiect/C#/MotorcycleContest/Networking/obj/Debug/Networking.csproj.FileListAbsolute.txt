@@ -1,0 +1,13 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Networking.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Networking.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Services.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\Services.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\obj\Debug\Networking.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\obj\Debug\Networking.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\obj\Debug\Networking.csproj.CopyComplete
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\obj\Debug\Networking.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\obj\Debug\Networking.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\System.Data.SQLite.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Networking\bin\Debug\System.Data.SQLite.xml

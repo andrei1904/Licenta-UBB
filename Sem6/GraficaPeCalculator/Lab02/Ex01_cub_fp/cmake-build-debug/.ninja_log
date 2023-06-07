@@ -1,0 +1,7 @@
+# ninja log v5
+4	1437	6692264244874877	CMakeFiles/Ex01_cub_fp.dir/main.cpp.obj	d3efd4782dfd99fa
+0	2931	6692263559799460	CMakeFiles/Ex01_cub_fp.dir/glad.c.obj	c47af9e676265dd9
+10	1508	6692264350993422	CMakeFiles/Ex01_cub_fp.dir/main_calota.cpp.obj	e6b1ca7fcb14812d
+1439	1759	6692264248031837	Ex01_cub_fp.exe	5ff1a9c566a9f60b
+1	403	6692264625370328	build.ninja	a5bfd34b0cff7df
+7	556	6692264642309739	Ex01_cub_fp.exe	5ff1a9c566a9f60b

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_card"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/task_card_height"
+    android:layout_marginStart="@dimen/task_card_margin_sides"
+    android:layout_marginTop="@dimen/task_card_general_margin"
+    android:layout_marginEnd="@dimen/task_card_margin_sides"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_domain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="@dimen/task_card_general_margin"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Domain" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/task_dark_grey"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_domain"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/text_view_time_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="@dimen/task_medium_distance_between_text"
+            android:fontFamily="@font/roboto"
+            android:text="@string/created_at"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_title" />
+
+        <TextView
+            android:id="@+id/text_view_time_created_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="@dimen/task_small_distance_between_text"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_time_created"
+            tools:text="12:00" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="12.5dp"
+            android:background="@color/task_grey"
+            app:layout_constraintEnd_toEndOf="@id/text_view_status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_time_created_value" />
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="30dp"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@string/button_delete_task"
+            android:src="@drawable/ic_delete_x"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/task_card_general_margin"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="11dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/divider"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:background="@color/task_blue"
+            tools:text="New" />
+
+        <TextView
+            android:id="@+id/text_view_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="@dimen/task_medium_distance_between_text"
+            android:fontFamily="@font/roboto"
+            android:text="@string/deadline"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider" />
+
+        <TextView
+            android:id="@+id/text_view_deadline_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="@dimen/task_medium_distance_between_text"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintStart_toEndOf="@id/text_view_deadline"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            tools:text="Oct 11 2021" />
+
+
+        <TextView
+            android:id="@+id/text_view_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/task_medium_distance_between_text"
+            android:layout_marginEnd="@dimen/task_card_general_margin"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/task_dark_grey_lower_opacity"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            tools:text="Medium prio" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/task_card_general_margin"
+            android:layout_marginTop="11.5dp"
+            android:layout_marginEnd="@dimen/task_card_general_margin"
+            android:layout_marginBottom="51dp"
+            android:maxLines="4"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_deadline"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/text_view_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/task_card_general_margin"
+            android:layout_marginBottom="14dp"
+            android:textSize="@dimen/task_general_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="0% Done" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:max="100"
+            android:progressTint="@color/task_blue"
+            android:scaleY="3"
+            app:layout_constraintTop_toBottomOf="@id/text_view_progress" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

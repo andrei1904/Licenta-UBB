@@ -1,0 +1,95 @@
+
+.icon {
+    width: 84px;
+    height: 84px;
+    background: url("poza.png");
+    display: block;
+}
+
+.facebook {
+    background-position: 0 84px;
+}
+
+.facebook:hover {
+    background-position: 0 0;
+}
+
+.dots {
+    background-position: -84px 84px;
+}
+
+.dots:hover {
+    background-position: -84px 0;
+}
+
+.circle {
+    background-position: -168px 84px;
+}
+
+.circle:hover {
+    background-position: -168px 0;
+}
+
+.google {
+    background-position: -252px 84px;
+}
+
+.google:hover {
+    background-position: -252px 0;
+}
+
+.linkedin {
+    background-position: -336px 84px;
+}
+
+.linkedin:hover {
+    background-position: -336px 0;
+}
+
+.pinterest {
+    background-position: -420px 84px;
+}
+
+.pinterest:hover {
+    background-position: -420px 0;
+}
+
+.rss {
+    background-position: -504px 84px;
+}
+
+.rss:hover {
+    background-position: -504px 0;
+}
+
+.skype {
+    background-position: -588px 84px;
+}
+
+.skype:hover {
+    background-position: -588px 0;
+}
+
+.twitter {
+    background-position: -672px 84px;
+}
+
+.twitter:hover {
+    background-position: -672px 0;
+}
+
+.vimeo {
+    background-position: -756px 84px;
+}
+
+.vimeo:hover {
+    background-position: -756px 0;
+}
+
+.youtube {
+    background-position: -840px 84px;
+}
+
+.youtube:hover {
+    background-position: -840px 0;
+}

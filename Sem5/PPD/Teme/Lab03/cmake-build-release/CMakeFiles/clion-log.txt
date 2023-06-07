@@ -1,0 +1,4 @@
+C:\Users\radua\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6461.75\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" C:\Fac\Sem5\PPD\Teme\Lab03
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Fac/Sem5/PPD/Teme/Lab03/cmake-build-release

@@ -1,0 +1,4 @@
+nr 2
+suma 0
+main 3
+n 1

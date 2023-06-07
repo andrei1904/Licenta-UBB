@@ -1,0 +1,15 @@
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.csprojAssemblyReference.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.csproj.CoreCompileInputs.cache
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Rest.exe.config
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Rest.exe
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Rest.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Domain.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Newtonsoft.Json.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Domain.pdb
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\Newtonsoft.Json.xml
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.exe.config
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.csproj.CopyComplete
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.exe
+C:\Fac\Sem4\MPP\Proiect\C#\MotorcycleContest\Rest\obj\Debug\Rest.pdb

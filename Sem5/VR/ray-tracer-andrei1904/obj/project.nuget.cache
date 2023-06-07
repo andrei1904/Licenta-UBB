@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3U8PN7PaZqJVJi+/ge/sTgEWrfy9p97uaEcrNxmYFhvJlaY0zknSLuqDqfQ2Ao2BTT/1/DIHaSFnhPNd6s9O7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Fac\\Sem5\\VR\\ray-tracer-andrei1904\\ray-tracer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-rc.1.20451.14\\microsoft.netcore.platforms.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-rc.1.20451.14\\microsoft.win32.systemevents.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\system.drawing.common\\5.0.0-rc.1.20451.14\\system.drawing.common.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\radua\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

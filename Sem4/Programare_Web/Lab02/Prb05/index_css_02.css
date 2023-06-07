@@ -1,0 +1,24 @@
+.main {
+    border: solid;
+    width: 40%;
+    background-color: yellow;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+table {
+    margin: 10px;
+    display: table;
+    padding-bottom: -10em;
+}
+
+p {
+    position: relative;
+    left: 180px;
+    top: -125px;
+}
+

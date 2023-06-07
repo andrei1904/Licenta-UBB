@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MotorcycleContest.db" uuid="02f24512-7207-4b10-9aab-0d5810a9e985">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Fac\Sem4\MPP\Proiect\Db\MotorcycleContest.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
